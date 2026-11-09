@@ -1,0 +1,16 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local dev
+node_modules/
+*.log
+
+# Never commit secrets or customer data
+.env
+.env.*
+secrets.json
+orders/

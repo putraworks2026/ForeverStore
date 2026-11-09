@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product — ForeverStore</title>
+<meta name="description" content="Forever Living product details, sizes and ordering information from ForeverStore.">
+<meta name="theme-color" content="#17624a">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#detail">Skip to product</a>
+
+<div id="demo-bar" class="demo-bar" hidden></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ForeverStore</span>
+      <small class="nav-secondary">Forever Living</small>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#shop">Shop</a>
+      <a class="cart-link" href="cart.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+          <path d="M6 7h12l-1.2 12.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/>
+          <path d="M9 7a3 3 0 0 1 6 0"/>
+        </svg>
+        <span>Cart</span>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="detail wrap" id="detail">
+    <p class="crumbs"><a href="index.html">Home</a> / <a href="index.html#shop" id="crumb-cat">Shop</a> / <span id="crumb-name">Product</span></p>
+
+    <div id="product-root">
+      <div class="detail-grid">
+        <div class="detail-media">
+          <img id="p-media" src="assets/img/hero.svg" alt="" width="600" height="600">
+        </div>
+        <div>
+          <p class="eyebrow" id="p-cat">&nbsp;</p>
+          <h1 id="p-name">Product</h1>
+          <p class="muted" id="p-size"></p>
+          <p class="detail-price" id="p-price"></p>
+          <p id="p-blurb"></p>
+
+          <div class="buy-row" id="buy-row">
+            <div class="qty">
+              <button type="button" id="qty-minus" aria-label="Decrease quantity">−</button>
+              <label class="sr-only" for="qty">Quantity</label>
+              <input type="number" id="qty" value="1" min="1" max="99" inputmode="numeric">
+              <button type="button" id="qty-plus" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn" type="button" id="add-btn">Add to cart</button>
+            <a class="btn btn-ghost" href="cart.html">View cart</a>
+          </div>
+
+          <div class="notice" id="p-unavailable" hidden>
+            This product is not in the current Singapore price list, so it cannot be ordered here. Ask us and we will confirm availability.
+          </div>
+
+          <div class="notice" id="p-notes" hidden></div>
+
+          <dl class="facts">
+            <div class="fact"><dt>Category</dt><dd id="f-cat">—</dd></div>
+            <div class="fact"><dt>Order code</dt><dd id="f-size">—</dd></div>
+            <div class="fact"><dt>Delivery</dt><dd id="f-ship">—</dd></div>
+            <div class="fact"><dt>Payment</dt><dd>Order is confirmed with you before payment is collected.</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <section aria-labelledby="related-title" style="margin-top:56px">
+        <p class="eyebrow">More in this category</p>
+        <h2 id="related-title">You may also like</h2>
+        <div class="grid" id="related"></div>
+      </section>
+
+      <div class="empty-state" id="missing" hidden>
+        <p><strong>We couldn't find that product.</strong></p>
+        <p>It may have been renamed or removed from the catalogue.</p>
+        <a class="btn btn-ghost" href="index.html#shop">Back to the shop</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-base">
+      <span>&copy; <span id="year">2026</span> ForeverStore</span>
+      <span>Product statements are not intended to diagnose, treat or cure any condition.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/data/products.js"></script>
+<script src="assets/js/cart-core.js"></script>
+<script src="assets/js/product.js"></script>
+</body>
+</html>

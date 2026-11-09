@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="aloe peaches">
+  <title>Aloe Peaches</title>
+  <defs>
+    <linearGradient id="galoe-p" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef4ee"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="glowaloe-p" cx="50%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#8fc4a6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8fc4a6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#galoe-p)"/>
+  <circle cx="300" cy="300" r="230" fill="url(#glowaloe-p)"/>
+  <ellipse cx="300" cy="524" rx="132" ry="16" fill="#2f7a54" opacity="0.13"/>
+  <g transform="translate(96 470) rotate(-26) scale(1.35)" opacity="0.55"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#8fc4a6"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#8fc4a6"/></g>
+    <g transform="translate(500 486) rotate(24) scale(1.2)" opacity="0.45"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#8fc4a6"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#8fc4a6"/></g>
+    <g transform="translate(132 520) rotate(-52) scale(0.95)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#2f7a54"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#2f7a54"/></g>
+    <g transform="translate(474 528) rotate(50) scale(0.9)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#2f7a54"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#2f7a54"/></g>
+  <g>
+    <rect x="238" y="196" width="124" height="300" rx="34" fill="#8fc4a6"/>
+    <rect x="238" y="196" width="124" height="300" rx="34" fill="none" stroke="#2f7a54" stroke-width="3" opacity="0.55"/>
+    <rect x="286" y="150" width="28" height="34" fill="#2f7a54" opacity="0.75"/>
+    <rect x="278" y="126" width="44" height="30" rx="7" fill="#2f7a54"/>
+    <rect x="252" y="262" width="96" height="168" rx="9" fill="#ffffff" opacity="0.92"/>
+    <rect x="264" y="284" width="72" height="9" rx="4" fill="#2f7a54" opacity="0.7"/>
+    <rect x="264" y="302" width="52" height="7" rx="3.5" fill="#2f7a54" opacity="0.35"/>
+    <rect x="264" y="332" width="72" height="5" rx="2.5" fill="#2f7a54" opacity="0.2"/>
+    <rect x="264" y="346" width="62" height="5" rx="2.5" fill="#2f7a54" opacity="0.2"/>
+    <rect x="264" y="360" width="68" height="5" rx="2.5" fill="#2f7a54" opacity="0.2"/>
+    <rect x="264" y="386" width="40" height="26" rx="4" fill="#2f7a54" opacity="0.15"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="aloe ever shield">
+  <title>Aloe Ever Shield</title>
+  <defs>
+    <linearGradient id="galoe-e" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0f4ea"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="glowaloe-e" cx="50%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#b2cba2" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#b2cba2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#galoe-e)"/>
+  <circle cx="300" cy="300" r="230" fill="url(#glowaloe-e)"/>
+  <ellipse cx="300" cy="524" rx="132" ry="16" fill="#5f8655" opacity="0.13"/>
+  <g transform="translate(96 470) rotate(-26) scale(1.35)" opacity="0.55"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#b2cba2"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#b2cba2"/></g>
+    <g transform="translate(500 486) rotate(24) scale(1.2)" opacity="0.45"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#b2cba2"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#b2cba2"/></g>
+    <g transform="translate(132 520) rotate(-52) scale(0.95)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#5f8655"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#5f8655"/></g>
+    <g transform="translate(474 528) rotate(50) scale(0.9)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#5f8655"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#5f8655"/></g>
+  <g>
+    <rect x="258" y="200" width="84" height="60" rx="10" fill="#5f8655" opacity="0.85"/>
+    <rect x="264" y="252" width="72" height="230" rx="16" fill="#b2cba2"/>
+    <rect x="264" y="252" width="72" height="230" rx="16" fill="none" stroke="#5f8655" stroke-width="3" opacity="0.55"/>
+    <rect x="270" y="316" width="60" height="96" rx="7" fill="#ffffff" opacity="0.92"/>
+    <rect x="280" y="334" width="40" height="7" rx="3.5" fill="#5f8655" opacity="0.7"/>
+    <rect x="280" y="350" width="26" height="5" rx="2.5" fill="#5f8655" opacity="0.3"/>
+  </g>
+</svg>

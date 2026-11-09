@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your cart — ForeverStore</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#17624a">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#cart-main">Skip to cart</a>
+
+<div id="demo-bar" class="demo-bar" hidden></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ForeverStore</span>
+      <small class="nav-secondary">Forever Living</small>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#shop">Shop</a>
+      <a class="cart-link" href="cart.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+          <path d="M6 7h12l-1.2 12.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/>
+          <path d="M9 7a3 3 0 0 1 6 0"/>
+        </svg>
+        <span>Cart</span>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Checkout</p>
+    <h1>Your cart</h1>
+    <p class="muted">Orders are confirmed by message or email before payment is collected.</p>
+  </div>
+</div>
+
+<main class="wrap cart-layout" id="cart-main">
+  <section aria-labelledby="items-title">
+    <h2 id="items-title" class="sr-only">Items</h2>
+
+    <div id="cart-empty" class="empty-state" hidden>
+      <p><strong>Your cart is empty.</strong></p>
+      <p>Add a few products from the shop to get started.</p>
+      <a class="btn" href="index.html#shop">Browse products</a>
+    </div>
+
+    <div id="cart-filled" hidden>
+      <div class="cart-lines" id="cart-lines"></div>
+      <p style="margin-top:14px">
+        <button class="btn-quiet" type="button" id="clear-cart">Empty the cart</button>
+      </p>
+
+      <section aria-labelledby="details-title" style="margin-top:34px">
+        <h2 id="details-title">Delivery details</h2>
+        <p class="muted" style="font-size:0.92rem">We only use these to confirm and deliver your order.</p>
+        <form id="order-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-name">Full name</label>
+              <input id="f-name" name="name" type="text" required placeholder="Your name" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone</label>
+              <input id="f-phone" name="phone" type="tel" required placeholder="e.g. 9123 4567" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="f-postcode">Postcode</label>
+              <input id="f-postcode" name="postcode" type="text" placeholder="e.g. 560123" autocomplete="postal-code">
+            </div>
+            <div class="field full">
+              <label for="f-address">Delivery address</label>
+              <textarea id="f-address" name="address" required placeholder="Street, unit number, city" autocomplete="street-address"></textarea>
+            </div>
+            <div class="field full">
+              <label for="f-notes">Notes (optional)</label>
+              <textarea id="f-notes" name="notes" placeholder="Delivery instructions, preferred time, questions"></textarea>
+            </div>
+          </div>
+          <div class="order-actions">
+            <button class="btn" type="submit">Prepare order summary</button>
+          </div>
+        </form>
+
+        <div class="order-out" id="order-out" hidden>
+          <h3>Your order summary</h3>
+          <p class="muted" style="font-size:0.88rem">Send this to us and we will confirm stock, delivery time and payment.</p>
+          <label class="sr-only" for="order-text">Order summary</label>
+          <textarea id="order-text" readonly></textarea>
+          <div class="order-actions">
+            <button class="btn" type="button" id="copy-order">Copy summary</button>
+            <a class="btn btn-ghost" id="email-order" href="#">Email the order</a>
+            <a class="btn btn-ghost" id="wa-order" href="#" hidden target="_blank" rel="noopener">Send on WhatsApp</a>
+          </div>
+          <p class="summary-note" id="send-note"></p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <aside class="summary" aria-labelledby="summary-title">
+    <h2 id="summary-title">Order summary</h2>
+    <div class="summary-row"><span>Items</span><span id="sum-items">0</span></div>
+    <div class="summary-row"><span>Subtotal</span><span id="sum-subtotal">—</span></div>
+    <div class="summary-row"><span>Delivery</span><span id="sum-ship">—</span></div>
+    <div class="summary-row total"><span>Total</span><span id="sum-total">—</span></div>
+    <p class="ship-hint" id="sum-hint" hidden></p>
+    <a class="btn" href="#details-title" id="to-checkout">Continue to details</a>
+    <p class="summary-note">Prices include 9% GST. Payment is arranged after we confirm your order. No card details are collected on this site.</p>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-base">
+      <span>&copy; <span id="year">2026</span> ForeverStore</span>
+      <span>Product statements are not intended to diagnose, treat or cure any condition.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/data/products.js"></script>
+<script src="assets/js/cart-core.js"></script>
+<script src="assets/js/cart-page.js"></script>
+</body>
+</html>

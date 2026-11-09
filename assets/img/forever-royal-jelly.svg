@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="forever royal jelly">
+  <title>Forever Royal Jelly</title>
+  <defs>
+    <linearGradient id="gforeve" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f2e2"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="glowforeve" cx="50%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#e0bd6a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e0bd6a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#gforeve)"/>
+  <circle cx="300" cy="300" r="230" fill="url(#glowforeve)"/>
+  <ellipse cx="300" cy="524" rx="132" ry="16" fill="#a8761f" opacity="0.13"/>
+  <g transform="translate(96 470) rotate(-26) scale(1.35)" opacity="0.55"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#e0bd6a"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#e0bd6a"/></g>
+    <g transform="translate(500 486) rotate(24) scale(1.2)" opacity="0.45"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#e0bd6a"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#e0bd6a"/></g>
+    <g transform="translate(132 520) rotate(-52) scale(0.95)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#a8761f"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#a8761f"/></g>
+    <g transform="translate(474 528) rotate(50) scale(0.9)" opacity="0.16"><path d="M0 0 C 14 -18 20 -44 16 -72 C 10 -54 2 -30 0 0 Z" fill="#a8761f"/><path d="M0 0 C -14 -18 -20 -44 -16 -72 C -10 -54 -2 -30 0 0 Z" fill="#a8761f"/></g>
+  <g>
+    <rect x="222" y="238" width="156" height="252" rx="26" fill="#e0bd6a"/>
+    <rect x="222" y="238" width="156" height="252" rx="26" fill="none" stroke="#a8761f" stroke-width="3" opacity="0.55"/>
+    <rect x="212" y="196" width="176" height="54" rx="16" fill="#a8761f" opacity="0.85"/>
+    <rect x="236" y="300" width="128" height="130" rx="10" fill="#ffffff" opacity="0.92"/>
+    <rect x="250" y="322" width="100" height="9" rx="4" fill="#a8761f" opacity="0.7"/>
+    <rect x="250" y="340" width="70" height="7" rx="3.5" fill="#a8761f" opacity="0.35"/>
+    <rect x="250" y="370" width="96" height="5" rx="2.5" fill="#a8761f" opacity="0.2"/>
+    <rect x="250" y="384" width="84" height="5" rx="2.5" fill="#a8761f" opacity="0.2"/>
+  </g>
+</svg>

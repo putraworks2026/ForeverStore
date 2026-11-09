@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ForeverStore — Forever Living products</title>
+<meta name="description" content="ForeverStore: aloe vera drinks, bee products, skincare and supplements from Forever Living, delivered in Singapore.">
+<meta name="theme-color" content="#17624a">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#shop">Skip to products</a>
+
+<div id="demo-bar" class="demo-bar" hidden></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ForeverStore</span>
+      <small class="nav-secondary">Forever Living</small>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#shop">Shop</a>
+      <a class="nav-secondary" href="#about">About</a>
+      <a class="cart-link" href="cart.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+          <path d="M6 7h12l-1.2 12.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/>
+          <path d="M9 7a3 3 0 0 1 6 0"/>
+        </svg>
+        <span>Cart</span>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Forever Living Products</p>
+        <h1>Aloe first. Everything else follows.</h1>
+        <p class="hero-lede">
+          Inner-leaf aloe vera drinks, bee products, skincare and everyday supplements.
+          Order online and we will confirm delivery details with you directly.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#shop">Shop the range</a>
+          <a class="btn btn-ghost" href="#shop" data-jump-category="Drinks">Start with the drinks</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/img/hero.svg" alt="Aloe vera rosette illustration" width="600" height="560">
+      </div>
+    </div>
+  </section>
+
+  <section class="shop" id="shop" aria-labelledby="shop-title">
+    <div class="wrap">
+      <div class="shop-head">
+        <div>
+          <p class="eyebrow">The range</p>
+          <h2 id="shop-title">Shop all products</h2>
+        </div>
+        <div class="controls">
+          <div class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false">
+              <circle cx="11" cy="11" r="7"/><path d="m16 16 4.5 4.5"/>
+            </svg>
+            <label class="sr-only" for="search">Search products</label>
+            <input type="search" id="search" placeholder="Search products" autocomplete="off">
+          </div>
+          <label class="sr-only" for="sort">Sort products</label>
+          <select class="control" id="sort">
+            <option value="featured">Sort: Featured</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="name">Name: A–Z</option>
+          </select>
+        </div>
+      </div>
+
+      <ul class="chips" id="chips" aria-label="Filter by category"></ul>
+
+      <p class="muted" id="result-count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+
+      <div class="empty-state" id="empty" hidden>
+        <p><strong>No products match that.</strong></p>
+        <p>Try a different search term or clear the category filter.</p>
+        <button class="btn btn-ghost" type="button" id="reset-filters">Clear filters</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="about">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>ForeverStore</h3>
+        <p>Aloe vera drinks, bee products, skincare and supplements. Independent distributor of Forever Living Products.</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul id="footer-cats"></ul>
+      </div>
+      <div>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="cart.html">Your cart</a></li>
+          <li>Delivery &amp; returns: to be added</li>
+          <li>Payment on confirmation</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li id="footer-contact">Contact details to be added</li>
+          <li id="footer-hours">Replies within one working day</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; <span id="year">2026</span> ForeverStore</span>
+      <span>Product statements are not intended to diagnose, treat or cure any condition. Food supplements are not a substitute for a varied diet.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/data/products.js"></script>
+<script src="assets/js/cart-core.js"></script>
+<script src="assets/js/shop.js"></script>
+</body>
+</html>
