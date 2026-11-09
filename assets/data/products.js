@@ -105,7 +105,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "bottle",
     sku: "815",
-    img: "assets/img/aloe-vera-gel.svg",
+    img: "assets/img/products/aloe-vera-gel.webp",
     available: true,
     price: 55.62
   },
@@ -115,7 +115,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "bottle",
     sku: "834",
-    img: "assets/img/aloe-berry-nectar.svg",
+    img: "assets/img/products/aloe-berry-nectar.webp",
     available: true,
     price: 55.62
   },
@@ -125,7 +125,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "bottle",
     sku: "877",
-    img: "assets/img/aloe-bits-n-peaches.svg",
+    img: "assets/img/products/aloe-bits-n-peaches.webp",
     available: true,
     price: 55.62
   },
@@ -135,7 +135,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "bottle",
     sku: "896",
-    img: "assets/img/forever-freedom.svg",
+    img: "assets/img/products/forever-freedom.webp",
     available: true,
     price: 76.76
   },
@@ -207,7 +207,7 @@ window.PRODUCTS = [
     category: "Bee products",
     form: "jar",
     sku: "026",
-    img: "assets/img/forever-bee-pollen.svg",
+    img: "assets/img/products/forever-bee-pollen.webp",
     available: true,
     price: 35.78
   },
@@ -217,7 +217,7 @@ window.PRODUCTS = [
     category: "Bee products",
     form: "jar",
     sku: "027",
-    img: "assets/img/forever-bee-propolis.svg",
+    img: "assets/img/products/forever-bee-propolis.webp",
     available: true,
     price: 66.84
   },
@@ -227,7 +227,7 @@ window.PRODUCTS = [
     category: "Bee products",
     form: "jar",
     sku: "036",
-    img: "assets/img/forever-royal-jelly.svg",
+    img: "assets/img/products/forever-royal-jelly.webp",
     available: true,
     price: 66.84
   },
@@ -308,7 +308,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bottle",
     sku: "205",
-    img: "assets/img/forever-aloe-msm-gel.svg",
+    img: "assets/img/products/forever-aloe-msm-gel.webp",
     available: true,
     price: 41.83
   },
@@ -318,7 +318,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "051",
-    img: "assets/img/aloe-propolis-creme.svg",
+    img: "assets/img/products/aloe-propolis-creme.webp",
     available: true,
     price: 42.7
   },
@@ -579,7 +579,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "bottle",
     sku: "633",
-    img: "assets/img/aloe-liquid-soap.svg",
+    img: "assets/img/products/aloe-liquid-soap.webp",
     available: true,
     price: 43.12
   },
@@ -690,7 +690,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "439",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-daily.webp",
     available: true,
     price: 34.5
   },
@@ -700,7 +700,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "622",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-focus.webp",
     available: true,
     price: 144.02
   },
@@ -710,7 +710,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "354",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-kids.webp",
     available: true,
     price: 35.78
   },
@@ -740,7 +740,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "624",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/ivision.webp",
     available: true,
     price: 75.77
   },
@@ -750,7 +750,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "072",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/lycium-plus.webp",
     available: true,
     price: 72.01
   },
@@ -760,7 +760,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "551",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-move.webp",
     available: true,
     price: 125.04
   },
@@ -780,7 +780,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "463",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-therm.webp",
     available: true,
     price: 49.15
   },
@@ -810,7 +810,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "065",
-    img: "assets/img/forever-garlic-thyme.svg",
+    img: "assets/img/products/forever-garlic-thyme.webp",
     available: true,
     price: 49.15
   }

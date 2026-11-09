@@ -19,14 +19,19 @@ const CATS = ["Packs", "Drinks", "Shakes", "Bee products", "Skincare", "Personal
 const imgDir = path.join(root, "assets/img");
 const products = map.items.map((m) => {
   const price = prices.has(m.code) ? prices.get(m.code) : null;
-  const bespoke = fs.existsSync(path.join(imgDir, m.id + ".svg"));
+  const photo = fs.existsSync(path.join(imgDir, "products", m.id + ".webp"));
+  const bespoke = !photo && fs.existsSync(path.join(imgDir, m.id + ".svg"));
   return {
     id: m.id,
     name: m.name,
     category: m.category,
     form: m.form,
     sku: m.code,
-    img: bespoke ? "assets/img/" + m.id + ".svg" : "assets/img/form-" + m.form + ".svg",
+    img: photo
+      ? "assets/img/products/" + m.id + ".webp"
+      : bespoke
+        ? "assets/img/" + m.id + ".svg"
+        : "assets/img/form-" + m.form + ".svg",
     available: price != null,
     price: price
   };
