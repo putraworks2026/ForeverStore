@@ -130,14 +130,17 @@
     var ing = (window.PRODUCT_INGREDIENTS || {})[p.id];
     if (ing && ing.items && ing.items.length) {
       html += "<h3>Ingredients</h3>";
-      if (ing.perServing) html += "<p class=\"detail-per\">" + esc(ing.perServing) + "</p>";
+      var dup = (detail.highlights || []).some(function (h) {
+        return h.indexOf(ing.perServing) > -1 || ing.perServing.indexOf(h) > -1;
+      });
+      if (ing.perServing && !dup) html += "<p class=\"detail-per\">" + esc(ing.perServing) + "</p>";
       html += "<ul class=\"detail-list detail-ing\">" +
         ing.items.map(function (row) {
           return "<li><strong>" + esc(row[0]) + "</strong>" +
             (row[1] ? ": " + esc(row[1]) : "") + "</li>";
         }).join("") +
         "</ul>";
-      if (ing.source) {
+      if (ing.source && ing.source !== detail.source) {
         html += "<p class=\"detail-source\">Ingredient detail from " + esc(ing.source) + ".</p>";
       }
     } else if (detail.ingredients && detail.ingredients.length) {
