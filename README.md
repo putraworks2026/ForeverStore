@@ -80,6 +80,16 @@ illustration, or broken cart maths. `check-details.cjs` fails on an unsourced en
 verification date, a stub bullet, a vague pack size, or the words cure, treat, prevent, heal,
 diagnose, guaranteed, detox or prescription.
 
+## Asset versions
+
+Asset links in the HTML carry a short content hash, e.g. `assets/css/styles.css?v=873cad68`.
+GitHub Pages serves assets with a 10 minute cache, so a plain reload can show stale CSS on a
+phone. Whenever styles or scripts change, re-run the version stamp:
+
+```bash
+python3 tools/stamp-assets.py
+```
+
 ## Run locally
 
 ```bash
