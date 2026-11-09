@@ -30,7 +30,11 @@
   if (p.badge) metaBits.push(p.badge);
   set("p-size", metaBits.join(" · "));
   set("p-price", p.price == null ? "Price on request" : Cart.money(p.price));
-  set("p-blurb", p.blurb || "");
+  var lead = (window.PRODUCT_DETAILS || {})[p.id];
+  var leadText = (lead && lead.summary) || "";
+  set("p-blurb", leadText);
+  var blurbEl = document.getElementById("p-blurb");
+  if (blurbEl) blurbEl.hidden = !leadText;
   set("f-cat", p.category);
   set("f-size", p.sku || "—");
   set("crumb-cat", p.category);
@@ -50,12 +54,6 @@
     if (buyRow) buyRow.hidden = true;
     var unavailable = document.getElementById("p-unavailable");
     if (unavailable) unavailable.hidden = false;
-  }
-
-  var notes = document.getElementById("p-notes");
-  if (notes && p.notes) {
-    notes.textContent = p.notes;
-    notes.hidden = false;
   }
 
   var crumbCat = document.getElementById("crumb-cat");

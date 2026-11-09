@@ -19,12 +19,10 @@ const map = {
   "forever-lite-ultra-vanilla": {
     code: "470",
     name: "Forever Lite Aminotein — Vanilla",
-    blurb: "Protein shake mix from the Forever Lite range, supplied as a pouch. Blend with water or milk."
   },
   "forever-lite-ultra-chocolate": {
     code: "471",
     name: "Forever Lite Aminotein — Chocolate",
-    blurb: "The chocolate flavour of the Forever Lite shake mix, supplied as a pouch."
   },
   "forever-bee-honey": { code: "207" },
   "forever-bee-propolis": { code: "027" },
@@ -39,7 +37,6 @@ const map = {
   "aloe-eye-gel": {
     code: "561",
     name: "Forever Aloe Awakening Eye Creme",
-    blurb: "Eye cream from the Forever Aloe skincare range."
   },
   "bright-toothgel": { code: "028" },
   "aloe-ever-shield": { code: "067" },
@@ -49,7 +46,6 @@ const map = {
   "active-probiotic": {
     code: "610",
     name: "Forever Active Pro-B",
-    blurb: "Probiotic supplement, listed in the Singapore price list as Active Pro-B."
   },
   "forever-argi-plus": { code: "504" },
   "forever-garlic-thyme": { code: "065" },
@@ -93,8 +89,6 @@ cats.forEach((cat, ci) => {
     out.push("    available: " + (row ? "true" : "false") + ",");
     out.push("    price: " + (row ? row.priceInclGst.toFixed(2) : "null") + ",");
     if (p.badge) out.push('    badge: "' + esc(p.badge) + '",');
-    out.push('    blurb: "' + esc(m.blurb || p.blurb) + '"' + (p.notes ? "," : ""));
-    if (p.notes) out.push('    notes: "' + esc(p.notes) + '"');
     const isLast = ci === cats.length - 1 && pi === groups[cat].length - 1;
     out.push("  }" + (isLast ? "" : ","));
   });

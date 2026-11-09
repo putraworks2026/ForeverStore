@@ -24,7 +24,7 @@ const ctx = {
 };
 ctx.window = ctx;
 vm.createContext(ctx);
-for (const f of ["assets/js/config.js", "assets/data/products.js", "assets/js/cart-core.js"]) {
+for (const f of ["assets/js/config.js", "assets/data/products.js", "assets/data/details.js", "assets/js/cart-core.js"]) {
   vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { filename: f });
 }
 
@@ -93,7 +93,11 @@ check("unique ids", ids.length, new Set(ids).size);
 check("unique names", P.length, new Set(P.map((p) => p.name)).size);
 check("categories valid", [...new Set(P.map((p) => p.category))].sort(), [...ctx.CATEGORIES].sort());
 check("all have image", P.filter((p) => !fs.existsSync("assets/img/" + p.id + ".svg")).map((p) => p.id), []);
-check("all have blurb", P.filter((p) => !p.blurb || p.blurb.length < 20).map((p) => p.id), []);
+const unsourced = P.filter((p) => p.available !== false &&
+  !((ctx.PRODUCT_DETAILS[p.id] || {}).summary || "").trim().length);
+check("all priced products have sourced copy", unsourced.map((p) => p.id), []);
+const strayBlurb = P.filter((p) => p.blurb || p.notes).map((p) => p.id);
+check("no unsourced blurb fields left in the catalogue", strayBlurb, []);
 
 /* every priced product must match the price list exactly */
 const mismatched = [];

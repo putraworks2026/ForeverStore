@@ -58,7 +58,9 @@
   function matches(p) {
     if (state.category !== ALL && p.category !== state.category) return false;
     if (!state.query) return true;
-    var hay = (p.name + " " + p.category + " " + (p.blurb || "")).toLowerCase();
+    var d = (window.PRODUCT_DETAILS || {})[p.id] || {};
+    var hay = (p.name + " " + p.category + " " + (d.summary || "") + " " +
+      (d.highlights || []).join(" ") + " " + (d.ingredients || []).join(" ")).toLowerCase();
     return state.query
       .toLowerCase()
       .split(/\s+/)

@@ -22,8 +22,6 @@ window.PRODUCTS = [
     available: true,
     price: 55.62,
     badge: "Bestseller",
-    blurb: "The classic drink made from inner-leaf aloe vera fillet. A mild, slightly tart taste served chilled or over ice.",
-    notes: "Shake well before serving. Refrigerate after opening and use within the period stated on the label."
   },
   {
     id: "aloe-berry-nectar",
@@ -33,8 +31,6 @@ window.PRODUCTS = [
     sku: "834",
     available: true,
     price: 55.62,
-    blurb: "Inner-leaf aloe with cranberry and apple juice for a sweeter, fruit-forward drink.",
-    notes: "Serve chilled. Refrigerate after opening."
   },
   {
     id: "aloe-peaches",
@@ -43,8 +39,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "Aloe vera gel blended with peach juice. A soft, summery alternative to the original gel.",
-    notes: "Serve chilled. Refrigerate after opening."
   },
   {
     id: "aloe-mango",
@@ -53,8 +47,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "Aloe vera gel with mango juice for a full, tropical flavour.",
-    notes: "Serve chilled. Refrigerate after opening."
   },
   {
     id: "aloe-bits-n-peaches",
@@ -64,8 +56,6 @@ window.PRODUCTS = [
     sku: "877",
     available: true,
     price: 55.62,
-    blurb: "Aloe gel with real peach pieces and pulp for a thicker, textured drink.",
-    notes: "Shake well before serving. Refrigerate after opening."
   },
   {
     id: "forever-freedom",
@@ -75,8 +65,6 @@ window.PRODUCTS = [
     sku: "896",
     available: true,
     price: 76.76,
-    blurb: "Aloe vera gel drink combined with glucosamine, chondroitin and MSM in an orange-flavoured base, made with active adults in mind.",
-    notes: "Contains shellfish-derived glucosamine. Check the label for allergen details."
   },
   {
     id: "forever-active",
@@ -85,8 +73,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "Aloe vera drink with pomegranate and grape flavours, aimed at active lifestyles.",
-    notes: "Serve chilled. Refrigerate after opening."
   },
   {
     id: "forever-aloe-msm-gel",
@@ -96,8 +82,6 @@ window.PRODUCTS = [
     sku: "205",
     available: true,
     price: 41.83,
-    blurb: "Aloe vera gel drink with MSM and herbal extracts in a light berry flavour.",
-    notes: "Serve chilled. Refrigerate after opening."
   },
 
   // ---------- Shakes ----------
@@ -109,8 +93,6 @@ window.PRODUCTS = [
     sku: "470",
     available: true,
     price: 63.39,
-    blurb: "Protein shake mix from the Forever Lite range, supplied as a pouch. Blend with water or milk.",
-    notes: "Use as part of a balanced diet, not as a meal replacement."
   },
   {
     id: "forever-lite-ultra-chocolate",
@@ -120,8 +102,6 @@ window.PRODUCTS = [
     sku: "471",
     available: true,
     price: 63.39,
-    blurb: "The chocolate flavour of the Forever Lite shake mix, supplied as a pouch.",
-    notes: "Use as part of a balanced diet, not as a meal replacement."
   },
 
   // ---------- Bee products ----------
@@ -133,8 +113,6 @@ window.PRODUCTS = [
     sku: "207",
     available: true,
     price: 43.56,
-    blurb: "Pure honey collected from apiaries in the American Southwest.",
-    notes: "Not suitable for children under 12 months."
   },
   {
     id: "forever-bee-propolis",
@@ -144,8 +122,6 @@ window.PRODUCTS = [
     sku: "027",
     available: true,
     price: 66.84,
-    blurb: "Chewable tablets with propolis and honey.",
-    notes: "Check the label for allergen information. Not suitable for young children."
   },
   {
     id: "forever-bee-pollen",
@@ -155,8 +131,6 @@ window.PRODUCTS = [
     sku: "026",
     available: true,
     price: 35.78,
-    blurb: "Chewable bee pollen tablets with honey. High in protein for a bee product.",
-    notes: "Contains pollen. Avoid if you are allergic to bee products."
   },
   {
     id: "forever-royal-jelly",
@@ -166,8 +140,6 @@ window.PRODUCTS = [
     sku: "036",
     available: true,
     price: 66.84,
-    blurb: "Softgel capsules containing royal jelly, the food of the queen bee.",
-    notes: "Avoid if you are allergic to bee products."
   },
 
   // ---------- Skincare ----------
@@ -180,8 +152,6 @@ window.PRODUCTS = [
     available: true,
     price: 32.34,
     badge: "Bestseller",
-    blurb: "A stabilised aloe vera gel for the body, used on skin that has had too much sun or a shave.",
-    notes: "For external use only."
   },
   {
     id: "aloe-propolis-creme",
@@ -191,8 +161,6 @@ window.PRODUCTS = [
     sku: "051",
     available: true,
     price: 42.70,
-    blurb: "A rich cream combining aloe vera, propolis and bee-derived ingredients for dry skin.",
-    notes: "For external use only."
   },
   {
     id: "aloe-heat-lotion",
@@ -202,8 +170,6 @@ window.PRODUCTS = [
     sku: "064",
     available: true,
     price: 32.34,
-    blurb: "A warming lotion with aloe vera and methyl salicylate for use after exercise.",
-    notes: "Warming sensation. Keep away from eyes and broken skin. Not for children."
   },
   {
     id: "aloe-scrub",
@@ -213,8 +179,6 @@ window.PRODUCTS = [
     sku: "238",
     available: true,
     price: 36.65,
-    blurb: "A face and body scrub with jojoba beads and aloe vera.",
-    notes: "Massage gently, then rinse. Avoid the eye area."
   },
   {
     id: "aloe-body-lotion",
@@ -224,8 +188,6 @@ window.PRODUCTS = [
     sku: "647",
     available: true,
     price: 37.94,
-    blurb: "A light everyday body lotion with aloe vera and vitamin E.",
-    notes: "For external use only."
   },
   {
     id: "aloe-lips",
@@ -236,8 +198,6 @@ window.PRODUCTS = [
     pack: "2-piece pack",
     available: true,
     price: 15.50,
-    blurb: "A jojoba and aloe lip balm for dry, chapped lips.",
-    notes: "For external use only."
   },
   {
     id: "aloe-eye-gel",
@@ -247,8 +207,6 @@ window.PRODUCTS = [
     sku: "561",
     available: true,
     price: 36.65,
-    blurb: "Eye cream from the Forever Aloe skincare range.",
-    notes: "Apply to the eye contour only."
   },
 
   // ---------- Personal care ----------
@@ -260,8 +218,6 @@ window.PRODUCTS = [
     sku: "028",
     available: true,
     price: 18.98,
-    blurb: "A fluoride-free toothgel with aloe vera and bee propolis.",
-    notes: "Use as your regular toothpaste."
   },
   {
     id: "aloe-ever-shield",
@@ -271,8 +227,6 @@ window.PRODUCTS = [
     sku: "067",
     available: true,
     price: 22.86,
-    blurb: "A deodorant stick with aloe vera, free of aluminium chlorohydrate.",
-    notes: "For external use only."
   },
   {
     id: "aloe-jojoba-shampoo",
@@ -282,8 +236,6 @@ window.PRODUCTS = [
     sku: "640",
     available: true,
     price: 37.51,
-    blurb: "A gentle everyday shampoo with aloe vera and jojoba oil.",
-    notes: "Massage into wet hair, then rinse."
   },
   {
     id: "aloe-jojoba-conditioner",
@@ -293,8 +245,6 @@ window.PRODUCTS = [
     sku: "641",
     available: true,
     price: 40.11,
-    blurb: "The matching conditioner, for easy combing and softness.",
-    notes: "Apply to clean, damp hair, then rinse."
   },
   {
     id: "aloe-liquid-soap",
@@ -304,8 +254,6 @@ window.PRODUCTS = [
     sku: "633",
     available: true,
     price: 43.12,
-    blurb: "A mild hand and body wash with aloe vera.",
-    notes: "For external use only."
   },
 
   // ---------- Supplements ----------
@@ -317,8 +265,6 @@ window.PRODUCTS = [
     sku: "610",
     available: true,
     price: 63.39,
-    blurb: "Probiotic supplement, listed in the Singapore price list as Active Pro-B.",
-    notes: "Food supplement. Do not exceed the stated dose."
   },
   {
     id: "forever-argi-plus",
@@ -328,8 +274,6 @@ window.PRODUCTS = [
     sku: "504",
     available: true,
     price: 131.09,
-    blurb: "A grape-flavoured stick pack with L-arginine, vitamins and fruit extracts.",
-    notes: "Food supplement. Not a substitute for a varied diet."
   },
   {
     id: "forever-multi-maca",
@@ -338,8 +282,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "Tablets combining maca root with vitamins and minerals.",
-    notes: "Food supplement. Do not exceed the stated dose."
   },
   {
     id: "forever-garlic-thyme",
@@ -349,8 +291,6 @@ window.PRODUCTS = [
     sku: "065",
     available: true,
     price: 49.15,
-    blurb: "Softgels containing garlic oil and thyme.",
-    notes: "Food supplement. Check the label for allergens."
   },
   {
     id: "forever-ginkgo-plus",
@@ -359,8 +299,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "Tablets with ginkgo biloba, gotu kola and other botanicals.",
-    notes: "Food supplement. Do not exceed the stated dose."
   },
   {
     id: "absorbent-c",
@@ -370,8 +308,6 @@ window.PRODUCTS = [
     sku: "048",
     available: true,
     price: 35.78,
-    blurb: "Vitamin C tablets combined with oat bran as a carrier.",
-    notes: "Food supplement. Do not exceed the stated dose."
   },
   {
     id: "forever-aloe-vera-gel-capsules",
@@ -380,8 +316,6 @@ window.PRODUCTS = [
     form: "bottle",
     available: false,
     price: null,
-    blurb: "The aloe vera gel in capsule form for people who prefer not to drink it.",
-    notes: "Food supplement. Do not exceed the stated dose."
   }
 ];
 
