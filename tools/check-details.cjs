@@ -80,13 +80,22 @@ for (const [id, g] of Object.entries(ING)) {
   else {
     for (const row of g.items) {
       if (!Array.isArray(row) || !row[0] || String(row[0]).trim().length < 3) badIng.push(id + ":bad-name");
-      if (row[1] !== undefined && String(row[1]).trim().length < 8) badIng.push(id + ":thin-note");
+      var note = String(row[1] || "");
+      if (note.trim().length < 25) badIng.push(id + ":thin-note");
+      if (/^(named|listed)\b.*\bsheet\.?$/i.test(note.trim())) badIng.push(id + ":vague-note");
     }
   }
   const text = [g.perServing || "", ...(g.items || []).map((r) => (r || []).join(" "))].join(" ");
   const hit = BANNED.find((w) => new RegExp("\\b" + w + "\\b", "i").test(text));
   if (hit) badIng.push(id + ":claim-" + hit);
 }
+const fallback = [];
+for (const [id, g] of Object.entries(ING)) {
+  for (const row of g.items || []) {
+    if (/without describing its role|gives no further description|gives no further description of it here/i.test(String((row || [])[1] || ""))) fallback.push(id);
+  }
+}
+check("explicit no-description fallback stays rare (<= 15 unique products)", new Set(fallback).size <= 15, Array.from(new Set(fallback)).join(", "));
 check("ingredient blocks are complete and claim-free", badIng.length === 0, badIng.join(", "));
 
 console.log("");

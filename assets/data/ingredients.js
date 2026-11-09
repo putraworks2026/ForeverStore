@@ -1,127 +1,144 @@
 /*
  * Ingredient detail for ForeverStore.
  *
- * Each entry is transcribed from the product's own fact sheet or from the
- * Forever product brochure (2025/26). `perServing` repeats a quantity only where
- * the document prints one. Nothing here is inferred: if the source does not name
- * an ingredient or give an amount, it is left out.
+ * Every line is transcribed from the product's own fact sheet or from the
+ * Forever product brochure (2025/26). Each entry says what the ingredient is and
+ * what the document says it is there for. `perServing` repeats a quantity only
+ * where the document prints one. Where a document names an ingredient without
+ * describing it, the entry says so rather than filling the gap.
  */
 window.PRODUCT_INGREDIENTS = {
   "aloe-vera-gel": {
     perServing: "97.4% aloe vera gel per 1 litre bottle, no added sugar.",
     items: [
-      ["Aloe vera inner leaf gel", "Stabilised leaf gel, described as close to drinking straight from the leaf."],
+      ["Aloe vera inner leaf gel", "The stabilised inner-leaf gel the drink is made from. The sheet credits aloe with natural cleansing abilities that help the digestive tract absorb nutrients from food, and with promoting friendly bacteria growth."],
+      ["Acemannan", "The polysaccharide the sheet names as one of the key markers the International Aloe Science Council uses to indicate aloe quality."]
     ],
     source: "ForeverAloeVeraGel.pdf"
   },
+
   "aloe-berry-nectar": {
-    perServing: "1 litre bottle, containing 100% juice.",
+    perServing: "1 litre bottle of cranberry and apple flavoured aloe gel.",
     items: [
-      ["Stabilised aloe vera inner leaf gel", "The aloe base of the drink."],
-      ["Cranberries", "Named on the nutrition panel as the fruit behind the flavour."],
-      ["Apple juice", "Listed alongside cranberry in the panel."],
-      ["Vitamin C", "The panel shows vitamin C in the drink."],
+      ["Aloe vera inner leaf gel", "The base of the drink, described as aiding digestion."],
+      ["Cranberry", "Paired with apple for the flavour; the sheet describes the drink as packed with phytonutrients and vitamins."],
+      ["Apple", "The second fruit in the blend. The sheet names quercetin, apple's phytonutrient, as a powerful antioxidant it says contributes to the drink's character."],
+      ["Vitamin C", "Shown on the nutrition panel for the drink."]
     ],
     source: "ForeverAloeBerryNectar.pdf"
   },
+
   "aloe-bits-n-peaches": {
     perServing: "1 litre bottle.",
     items: [
-      ["Stabilised aloe vera inner leaf gel", "The aloe base of the drink."],
-      ["Natural peach concentrate", "Named as the key flavouring ingredient."],
+      ["Aloe vera inner leaf gel", "The aloe base, described as aiding digestion."],
+      ["Sun-ripened peaches", "Paired with the aloe gel for flavour; the sheet describes the drink as packed with nutrients and antioxidants."]
     ],
     source: "ForeverAloeBitsNPeaches.pdf"
   },
+
   "forever-freedom": {
-    perServing: "1 litre bottle, orange flavoured.",
+    perServing: "1 litre bottle, orange flavoured with aloe vera gel.",
     items: [
-      ["Stabilised aloe vera inner leaf gel", "The aloe base of the drink."],
-      ["Glucosamine", "Listed with chondroitin and MSM among the drink's ingredients."],
-      ["Chondroitin", "Listed with glucosamine and MSM."],
-      ["MSM", "Methylsulfonylmethane, listed with the other two."],
-      ["Vitamin C", "Shown on the supplement panel."],
+      ["Aloe vera gel", "Carries the drink's aloe base."],
+      ["Glucosamine", "One of three joint ingredients; the sheet states glucosamine, chondroitin and MSM are shown to promote proper joint function and mobility and shock absorption while helping maintain healthy cartilage."],
+      ["Chondroitin", "The second of the three joint ingredients named on the sheet."],
+      ["MSM", "Methylsulfonylmethane, the third of the three joint ingredients."],
+      ["Vitamin C", "Shown on the supplement panel."]
     ],
     source: "ForeverFreedom_196.pdf"
   },
+
   "forever-aloe-msm-gel": {
     perServing: "",
     items: [
-      ["Aloe vera", "The gel base, described as clear and non-staining."],
-      ["Methyl sulfonyl methane (MSM)", "Named on the sheet as the active addition to the aloe gel."],
-      ["Glycerin", "Listed among the key ingredients."],
+      ["Aloe vera inner leaf gel", "The gel base, described as pure inner leaf aloe."],
+      ["Methyl sulfonyl methane (MSM)", "The sheet calls it a beneficial organic sulfur compound and credits the pairing with deep comfort, intense moisturisation and skin-calming properties."],
+      ["Glycerin", "Named as part of the gel's formula; the sheet gives no further description of it."]
     ],
     source: "ALOEMSMGEL.PDF"
   },
+
   "forever-lite-ultra-vanilla": {
     perServing: "17 g of protein per serving, 375 g pouch.",
     items: [
-      ["Forever Lite Ultra shake mix", "Protein shake mix described as a source of vitamins and minerals."],
-      ["Aminotein", "The protein blend named in the product name."],
+      ["Forever Lite Ultra shake mix", "A shake mix the brochure describes as a rich source of vitamins and minerals with 17 g of protein per serving."],
+      ["Aminotein", "The protein blend named in the product name."]
     ],
     source: "C9.PDF"
   },
+
   "forever-lite-ultra-chocolate": {
     perServing: "17 g of protein per serving, 375 g pouch.",
     items: [
-      ["Forever Lite Ultra chocolate shake mix", "Described as blending mint and cacao nibs with the chocolate shake."],
-      ["Aminotein", "The protein blend named in the product name."],
+      ["Forever Lite Ultra shake mix", "The brochure describes it as a rich source of vitamins and minerals with 17 g of protein per serving."],
+      ["Aminotein", "The protein blend named in the product name."]
     ],
     source: "C9.PDF"
   },
+
   "forever-bee-honey": {
-    perServing: "500 g net. One tablespoon is about 70 calories, with no fat or preservatives.",
+    perServing: "500 g net. The sheet notes one tablespoon is about 70 calories, with no fat or preservatives.",
     items: [
-      ["Pure bee honey", "The only ingredient: raw, unheated honey harvested in the mountains of Spain."],
+      ["Pure honey", "The only ingredient: mountain-harvested honey from Spain, described as raw and unheated with no fat or preservatives."]
     ],
     source: "ForeverBeeHoney.pdf"
   },
+
   "forever-bee-pollen": {
-    perServing: "100 tablets.",
+    perServing: "100 chewable tablets, no preservatives.",
     items: [
-      ["Bee pollen", "The single ingredient named on the sheet, taken from flowers and blended with honey."],
+      ["Bee pollen", "The single active ingredient. The sheet calls it a great natural source of nutrients including proteins, amino acids, carbohydrates, vitamins and minerals, easily digested and absorbed for energy and stamina."],
+      ["Honey", "Blended with the pollen, which the sheet says makes the tablet naturally sweet and easy to chew."]
     ],
     source: "FOREVERBEEPOLLEN_026.PDF"
   },
+
   "forever-bee-propolis": {
     perServing: "60 chewable tablets.",
     items: [
-      ["Bee propolis", "The material bees use to fortify and protect the hive, described by the sheet as a natural source of flavonoids."],
+      ["Bee propolis", "The resin-like material bees make to fortify their hive. The sheet says research shows it can support the body's natural defences, that it is a natural source of flavonoids, and that it can combat the effects of free radicals."]
     ],
     source: "FOREVERBEEPROPOLIS_027.PDF"
   },
+
   "forever-royal-jelly": {
     perServing: "60 tablets.",
     items: [
-      ["Royal jelly", "The honey bee secretion the sheet describes as rich in proteins, simple sugars, fatty acids and the B vitamins B5 and B6."],
-      ["10-HDA", "Also called queen bee acid, a fatty acid the sheet names as a marker of royal jelly."],
+      ["Royal jelly", "The rich, milky honey bee secretion the sheet describes as containing proteins, simple sugars, fatty acids, trace elements and vitamins B5 and B6."],
+      ["10-HDA", "Also called queen bee acid; the sheet names it as a defining component of royal jelly, the food that separates a queen bee's development from a worker's."]
     ],
     source: "FOREVERROYALJELLY_036.PDF"
   },
+
   "aloe-lips": {
     perServing: "Each tube contains 4.25 g of balm.",
     items: [
-      ["Aloe vera", "The balm base."],
-      ["Jojoba seed oil", "Listed among the three key ingredients."],
-      ["Beeswax", "Listed among the three key ingredients."],
+      ["Aloe vera", "The balm base; with jojoba and beeswax it is part of the trio the sheet says soothes, smooths and comforts lips."],
+      ["Jojoba", "A wax ester from the jojoba plant; the sheet groups aloe, jojoba and beeswax as the trio that soothes, smooths and comforts lips."],
+      ["Beeswax", "With aloe and jojoba, it forms the long-lasting moisture barrier the sheet describes."],
+      ["Myristyl myristate", "A skin-conditioning emollient the sheet names as part of the balm."]
     ],
     source: "ForeverAloeLips.pdf"
   },
+
   "aloe-lips-12": {
     perServing: "Twelve tubes, 4.25 g of balm in each.",
     items: [
-      ["Aloe vera", "The balm base."],
-      ["Jojoba seed oil", "Listed among the three key ingredients."],
-      ["Beeswax", "Listed among the three key ingredients."],
+      ["Aloe vera", "The balm base; with jojoba and beeswax it is part of the trio the sheet says soothes, smooths and comforts lips."],
+      ["Jojoba", "A wax ester from the jojoba plant; the sheet groups aloe, jojoba and beeswax as the trio that soothes, smooths and comforts lips."],
+      ["Beeswax", "With aloe and jojoba, it forms the long-lasting moisture barrier the sheet describes."],
+      ["Myristyl myristate", "A skin-conditioning emollient the sheet names as part of the balm."]
     ],
     source: "ForeverAloeLips.pdf"
   },
 
   "aloe-vera-gelly": {
-    perServing: "",
+    perServing: "118 ml tube.",
     items: [
-      ["Aloe vera", "The gel base, described as aloe in its purest form."],
-      ["Glycerin", "Listed among the key ingredients."],
-      ["Vitamin E", "Listed among the key ingredients."]
+      ["Aloe vera", "The whole formula: the sheet calls it aloe in its purest form, the first aloe gel of its kind to receive International Aloe Science Council certification for purity and potency, from hand-harvested, hand-filleted leaves."],
+      ["Glycerin", "Named as part of the gel's formula; the sheet gives no further description of it."],
+      ["Vitamin E", "Named as part of the gel's formula; the sheet gives no further description of it."]
     ],
     source: "ForeverAloeVeraGelly.pdf"
   },
@@ -129,11 +146,11 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-propolis-creme": {
     perServing: "113 g tube.",
     items: [
-      ["Aloe vera", "Part of what the sheet calls a blend of aloe and bee propolis."],
-      ["Bee propolis", "Named alongside aloe as the second core ingredient."],
-      ["Chamomile", "The third ingredient in the blend."],
-      ["Vitamin E", "Listed on the sheet."],
-      ["Vitamin C", "Listed on the sheet."]
+      ["Aloe vera", "Part of the blend the sheet says nourishes and supports healthy, radiant skin tone and texture."],
+      ["Bee propolis", "The resin-like substance bees make to strengthen the hive. On skin the sheet says it forms a natural barrier, sealing in the benefits of aloe while promoting rejuvenation."],
+      ["Chamomile", "The third member of the aloe, propolis and chamomile blend."],
+      ["Vitamin E", "Listed as part of the creme's formula; the sheet gives no further description of it."],
+      ["Vitamin C", "Listed as part of the creme's formula; the sheet gives no further description of it."]
     ],
     source: "ALOEPROPOLISCREME.PDF"
   },
@@ -141,9 +158,9 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-heat-lotion": {
     perServing: "",
     items: [
-      ["Aloe vera", "The lotion base."],
-      ["Eucalyptus oil", "Named as the ingredient behind the warming, aromatic side of the lotion."],
-      ["Menthol", "Named as the ingredient behind the cooling sensation."]
+      ["Menthol", "The cooling half of the formula: the sheet describes a cool, refreshing sensation as the lotion goes on."],
+      ["Eucalyptus", "The warming half: the sheet says the lotion gradually warms up while eucalyptus relaxes muscles."],
+      ["Aloe vera", "The soothing base the sensation is built on."]
     ],
     source: "ALOEHEATLOTION.PDF"
   },
@@ -151,9 +168,9 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-scrub": {
     perServing: "99 g tube.",
     items: [
-      ["Jojoba seed", "Formed into the microspheres that do the exfoliating."],
-      ["Aloe vera", "The skin-conditioning half of the formula."],
-      ["Vitamin E", "Listed among the key ingredients."]
+      ["Jojoba oil beads", "Formed into the microspheres that do the work: the sheet describes them gently exfoliating, clearing away dead cells and debris."],
+      ["Aloe vera", "The soothing side of the scrub, described as a gentle cleanse without the harshness of traditional scrubs."],
+      ["Vitamin E", "Listed as part of the scrub's formula; the sheet gives no further description of it."]
     ],
     source: "ALOESCRUB.PDF"
   },
@@ -161,9 +178,9 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-body-lotion": {
     perServing: "",
     items: [
-      ["Aloe vera", "The lotion base."],
-      ["Argan oil", "Listed among the key ingredients."],
-      ["Macadamia seed oil", "Listed among the key ingredients."]
+      ["Aloe vera", "The sheet says aloe forms the ideal base for the formula by moisturising and promoting a healthy skin barrier."],
+      ["Argan oil", "Named as a key ingredient; the sheet gives no further description of it here."],
+      ["Macadamia seed oil", "Named as a key ingredient; the sheet gives no further description of it here."]
     ],
     source: "ALOEBODYLOTION.PDF"
   },
@@ -171,8 +188,8 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-avocado-soap": {
     perServing: "142 g bar.",
     items: [
-      ["Aloe vera", "The soap base."],
-      ["Avocado oil", "Named as the second key ingredient."]
+      ["Aloe vera", "One of the two named ingredients."],
+      ["Avocado oil", "The second: the sheet describes the soap as smoothing, nourishing and moisturising, gentle enough for face or body."]
     ],
     source: "AloeAvocadoFaceAndBodySoap.pdf"
   },
@@ -181,8 +198,8 @@ window.PRODUCT_INGREDIENTS = {
     perServing: "",
     items: [
       ["Stabilised aloe vera gel", "From Forever's own fields, as the sheet describes it."],
-      ["Bee propolis", "Named as the second key ingredient."],
-      ["Proprietary blend", "The sheet refers to a proprietary blend alongside the aloe and propolis without listing it."]
+      ["Bee propolis", "The second named ingredient."],
+      ["Proprietary blend", "The sheet refers to a proprietary blend next to the aloe and propolis without listing it."]
     ],
     source: "ALOEFIRST.PDF"
   },
@@ -190,21 +207,22 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-body-wash": {
     perServing: "",
     items: [
-      ["Aloe vera", "The wash base."],
-      ["Argan oil", "Listed among the key ingredients."],
-      ["Hydrolysed jojoba esters", "Listed among the key ingredients."],
-      ["Vitamins A, C and E", "Listed on the sheet."]
+      ["Aloe vera", "The wash is built on aloe, which the sheet says leaves skin hydrated and rejuvenated."],
+      ["Argan oil", "Named as a key ingredient; the sheet gives no further description of it here."],
+      ["Hydrolysed jojoba esters", "Named as a key ingredient; the sheet gives no further description of it here."],
+      ["Vitamins A, C and E", "Named on the sheet as part of the wash."]
     ],
     source: "ALOEBODYWASH.PDF"
   },
 
   "aloe-sunscreen": {
-    perServing: "SPF 30.",
+    perServing: "SPF 30, water resistant.",
     items: [
-      ["Homosalate", "Named on the sheet as a sunscreen filter."],
-      ["Octisalate", "Named on the sheet as a sunscreen filter."],
-      ["Octocrylene", "Named on the sheet as a sunscreen filter."],
-      ["Aloe vera", "The soothing base of the formula."]
+      ["Homosalate", "One of the UV filters the sheet names for SPF 30 protection against UVA and UVB rays."],
+      ["Octisalate", "The second of the named UV filters."],
+      ["Octocrylene", "The third of the named UV filters."],
+      ["Zinc oxide", "The sheet's notes describe natural non-nanosized zinc oxide with an advanced coating technology in the blend."],
+      ["Aloe vera", "The soothing base, for a sunscreen the sheet says is designed for the whole family."]
     ],
     source: "ALOESUNSCREEN.PDF"
   },
@@ -212,7 +230,7 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-activator": {
     perServing: "",
     items: [
-      ["Aloe vera", "Supplied as a powder to be mixed with water."]
+      ["Aloe vera", "Supplied as a powder to be mixed with water into a gel, per the sheet's directions."]
     ],
     source: "ALOEACTIVATOR.PDF"
   },
@@ -220,38 +238,44 @@ window.PRODUCT_INGREDIENTS = {
   "replenishing-skin-oil": {
     perServing: "",
     items: [
-      ["Retinyl palmitate", "Named first among the formula's ingredients."],
-      ["Borage seed oil", "Named on the sheet."],
-      ["Safflower seed oil", "Named on the sheet."],
-      ["C15-19 alkane", "Named on the sheet."],
-      ["Vitamin E", "Named on the sheet."]
+      ["Retinyl palmitate", "A form of vitamin A, named first among the oil's ingredients."],
+      ["Borage seed oil", "Part of the oil blend; the sheet gives no further description of it."],
+      ["Safflower seed oil", "Part of the oil blend; the sheet gives no further description of it."],
+      ["C15-19 alkane", "A light emollient named on the sheet; it gives no further description of it."],
+      ["Vitamin E", "Named on the sheet as part of the blend."]
     ],
     source: "REPLENISHINGSKINOIL.PDF"
-  },
-
-  "aloe-bio-cellulose-mask": {
-    perServing: "25 g mask.",
-    items: [
-      ["Bio-cellulose mask", "The sheet describes a gel mask that moisturises without feeling greasy."]
-    ],
-    source: "ALOEBIOCELLULOSEMASK.PDF"
   },
 
   "renewing-skin-creme": {
     perServing: "56.7 g jar.",
     items: [
-      ["Vitamin A", "The sheet states the creme is fortified with vitamins A and E."],
-      ["Vitamin E", "The sheet states the creme is fortified with vitamins A and E."]
+      ["Sodium hyaluronate", "Attracts and retains moisture for hydrated, plumper-looking skin, per the sheet."],
+      ["Vitamin A", "Helps maintain skin condition and supports a refreshed skin appearance, per the sheet."],
+      ["Aloe barbadensis leaf juice", "Helps soothe and refresh the skin and maintain its moisture balance."],
+      ["Vitamin E", "Provides antioxidant benefits to help protect the skin from dryness and external stress."],
+      ["Alpha hydroxy acids (sugarcane, lemon, orange, apple extracts)", "Gently exfoliate surface dead skin cells, promoting smoother-looking skin texture."],
+      ["Olive squalane", "Helps improve skin smoothness and is linked on the sheet to keeping dryness at bay."],
+      ["Soluble collagen", "Conditions and smoothens the skin, giving a soft and supple feel."],
+      ["Botanical extracts (green tea leaf, citrus, apricot kernel oil)", "Plant-derived moisturisers that help condition and soften the skin."]
     ],
-    source: "RSCPB.PDF"
+    source: "RSCI.PDF"
+  },
+
+  "aloe-bio-cellulose-mask": {
+    perServing: "25 g mask.",
+    items: [
+      ["Bio-cellulose", "The sheet describes a gel mask that moisturises without feeling greasy and promotes a healthy-looking skin tone."]
+    ],
+    source: "ALOEBIOCELLULOSEMASK.PDF"
   },
 
   "bright-toothgel": {
     perServing: "130 g tube, fluoride-free.",
     items: [
       ["Aloe vera", "The gel base of the toothpaste."],
-      ["Peppermint", "Named as one of the two natural flavourings."],
-      ["Spearmint", "Named as the second flavouring."]
+      ["Peppermint", "One of the two natural flavourings the sheet names for clean teeth, fresh breath and a refreshing flavour."],
+      ["Spearmint", "The second of the two natural flavourings."]
     ],
     source: "ForeverBrightToothgel.pdf"
   },
@@ -259,7 +283,7 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-ever-shield": {
     perServing: "92.1 g stick.",
     items: [
-      ["Aloe vera", "The single key ingredient the sheet names."]
+      ["Aloe vera", "The single ingredient the sheet names for this deodorant stick."]
     ],
     source: "ALOEEVERSHIELD.PDF"
   },
@@ -267,8 +291,8 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-jojoba-shampoo": {
     perServing: "296 ml.",
     items: [
-      ["Aloe vera", "Described on the sheet as Forever's own stabilised gel."],
-      ["Jojoba oil", "The second named ingredient."]
+      ["Stabilised aloe vera gel", "Forever's own gel, which the sheet says helps the shampoo cleanse while caring for hair."],
+      ["Jojoba oil", "The nourishing partner named in the product name, described as leaving hair refreshed and revitalised."]
     ],
     source: "ALOEJOJOBASHAMPOO.PDF"
   },
@@ -276,9 +300,9 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-jojoba-conditioner": {
     perServing: "",
     items: [
-      ["Aloe vera", "Part of the base."],
-      ["Argan oil", "Listed among the key ingredients."],
-      ["Jojoba oil", "The sheet refers to a blend of three nourishing oils and names jojoba for softness."]
+      ["Aloe vera", "Part of the conditioner's base, which the sheet says nourishes and hydrates hair and scalp."],
+      ["Jojoba", "One of a blend of three nourishing oils the sheet credits with softness, smoothness and manageability."],
+      ["Argan oil", "Named among the key ingredients of the sulfate-free formula."]
     ],
     source: "ALOEJOJOBACONDITIONER.PDF"
   },
@@ -286,12 +310,12 @@ window.PRODUCT_INGREDIENTS = {
   "aloe-liquid-soap": {
     perServing: "473 ml.",
     items: [
-      ["Stabilised aloe vera gel", "The soap base."],
-      ["Cucumber fruit extract", "Listed among the key ingredients."],
-      ["Coconut fatty acids", "Named in the sheet's feature list."],
-      ["Hydrolysed jojoba esters", "Named in the sheet's feature list."],
+      ["Stabilised aloe vera gel", "The soap base, for a formula the sheet describes as soft on sensitive skin."],
+      ["Cucumber fruit extract", "Named in the sheet's feature list."],
+      ["Coconut fatty acids", "Naturally derived cleansers, per the sheet's feature list."],
+      ["Hydrolysed jojoba esters", "Named in the sheet's feature list as part of the moisturising formula."],
       ["Arnica flower extract", "Named in the sheet's feature list."],
-      ["Argan oil", "Named in the sheet's feature list."]
+      ["Argan oil", "Called the liquid gold of Morocco on the sheet, delivering vitamin E and natural fatty acids to condition and promote healthy skin."]
     ],
     source: "FOREVERALOELIQUIDSOAP_633.PDF"
   },
@@ -299,32 +323,30 @@ window.PRODUCT_INGREDIENTS = {
   "absorbent-c": {
     perServing: "Each tablet contains 60 mg vitamin C with 500 mg of oat bran.",
     items: [
-      ["Vitamin C", "60 mg per tablet."],
-      ["Oat bran", "500 mg per tablet, described as the carrier that assists absorption."],
-      ["Honey", "Listed among the key ingredients."]
+      ["Vitamin C", "60 mg per tablet, which the sheet calls the ultimate nutrient for staying healthy when life has you on the go."],
+      ["Oat bran", "500 mg per tablet, included in the tablet that carries the vitamin C."],
+      ["Honey", "Named as part of the tablet's formula."]
     ],
     source: "ForeverAbsorbent-C.pdf"
   },
 
   "active-probiotic": {
-    perServing: "8 billion CFU per capsule, one capsule daily.",
+    perServing: "8 billion CFU per capsule; one capsule daily.",
     items: [
-      ["Bifidobacterium lactis", "Named among the strains in the blend."],
-      ["Bifidobacterium longum", "Named among the strains in the blend."],
-      ["Bifidobacterium bifidum", "Named among the strains in the blend."],
-      ["Lactobacillus rhamnosus", "Named among the strains in the blend."],
-      ["Further Lactobacillus strains", "The sheet describes a six-strain blend; the remaining strains are not legible in the archived sheet."]
+      ["FloraActive probiotic blend", "A range of beneficial probiotic strains from Copenhagen University Hospital, per the sheet."],
+      ["Lactobacillus rhamnosus", "Named by the sheet as a beneficial bacterium delivered to the digestive system."],
+      ["Bifidobacterium lactis, B. longum and B. bifidum", "Three further strains the sheet names in the six-strain formula."],
+      ["Zinc", "Included in the six-strain formula with zinc, per the pack."]
     ],
-    source: "ACTIVEPRO-B.pdf"
+    source: "ACTIVEPRO-B.PDF"
   },
 
   "forever-argi-plus": {
     perServing: "One sachet provides 5 g of L-arginine.",
     items: [
-      ["L-arginine", "5 g per sachet, described as the primary ingredient."],
-      ["Grape extract", "Listed among the key ingredients."],
-      ["Vitamin C", "Named on the sheet."],
-      ["Vitamins K, D, B6 and B12", "Named on the sheet."]
+      ["L-arginine", "The primary ingredient: the sheet calls it an amino acid that helps the body create the 'miracle molecule' nitric oxide, which it links to circulation and cardiovascular health."],
+      ["Grape extract", "Named among the key ingredients alongside the vitamins."],
+      ["Vitamins C, K, D, B6 and B12", "The vitamin complex half of the formula, as the sheet names it."]
     ],
     source: "ARGI.pdf"
   },
@@ -332,11 +354,10 @@ window.PRODUCT_INGREDIENTS = {
   "cardiohealth-coq10": {
     perServing: "One sachet provides 80 mg of CoQ10.",
     items: [
-      ["CoQ10", "80 mg per sachet."],
-      ["Boswellia extract", "Listed among the key ingredients."],
-      ["Grape seed extract", "Listed among the key ingredients."],
-      ["Vitamins C, E, B6, B12 and folate", "Named on the sheet."],
-      ["Magnesium and chromium", "Named on the sheet."]
+      ["CoQ10", "80 mg per sachet: a co-enzyme produced by the body that the sheet says is shown to support the cardiovascular system."],
+      ["Vitamin B complex", "Combined with CoQ10 for what the sheet calls the basic functioning of cells."],
+      ["Boswellia extract", "Named among the key ingredients of the heart-promoting blend."],
+      ["Grape seed extract", "Named among the key ingredients; the sheet describes the blend as antioxidant power."]
     ],
     source: "CARDIOHEALTHWITHCOQ10.pdf"
   },
@@ -344,8 +365,8 @@ window.PRODUCT_INGREDIENTS = {
   "b12-plus": {
     perServing: "Each tablet contains 500 mcg vitamin B12 and 400 mcg folic acid.",
     items: [
-      ["Vitamin B12", "500 mcg per tablet, in a time-release formula."],
-      ["Folic acid", "400 mcg per tablet."]
+      ["Vitamin B12", "500 mcg per tablet; the sheet says B12 and folic acid help produce red blood cells, improve the way iron is used and support the immune system."],
+      ["Folic acid", "400 mcg per tablet, the partner nutrient to the B12."]
     ],
     source: "B12PLUS.pdf"
   },
@@ -353,20 +374,21 @@ window.PRODUCT_INGREDIENTS = {
   "forever-calcium": {
     perServing: "Three to four tablets daily.",
     items: [
-      ["Calcium", "The main mineral, taken with vitamin D."],
-      ["Vitamin D", "Named as the partner to calcium for bone support."],
-      ["Manganese", "Added to the formula, per the sheet."],
-      ["Copper", "Added to the formula, per the sheet."],
-      ["Vitamin C", "Added to the formula, per the sheet."],
-      ["Magnesium", "Listed among the key ingredients."]
+      ["Di-calcium malate", "The patented calcium form the sheet says stays in the bloodstream longer for enhanced absorption."],
+      ["Vitamin D", "Paired with calcium to support optimal bone health, per the sheet."],
+      ["Magnesium", "Named among the minerals in the formula."],
+      ["Manganese", "Named among the minerals in the formula."],
+      ["Copper", "Named among the minerals in the formula."],
+      ["Vitamin C", "Named among the vitamins in the formula."]
     ],
     source: "FOREVERCALCIUM.PDF"
   },
 
   "forever-fiber": {
-    perServing: "A proprietary blend providing 5 g of water-soluble fibre per serving; 30 stick packs.",
+    perServing: "5 g of fibre per serving, 30 stick packs.",
     items: [
-      ["Water-soluble fibre blend", "5 g per serving, described as helping promote feelings of fullness."]
+      ["Four fibre types", "The packet combines four types of fibre, per the sheet."],
+      ["Fructooligosaccharides", "A prebiotic the sheet says supports digestive health."]
     ],
     source: "FOREVERFIBER.PDF"
   },
@@ -374,10 +396,10 @@ window.PRODUCT_INGREDIENTS = {
   "fields-of-greens": {
     perServing: "80 tablets.",
     items: [
-      ["Barley grass", "One of the greens named on the sheet."],
-      ["Wheatgrass", "Named on the sheet."],
-      ["Alfalfa", "Named on the sheet."],
-      ["Cayenne", "Named in the product name on the pack."]
+      ["Barley grass", "One of the greens the sheet says do more than nourish the body: they help cleanse while providing phytonutrients, vitamins and enzymes."],
+      ["Wheatgrass", "The second of the named greens, in the same phytonutrient role."],
+      ["Alfalfa", "The third of the named greens."],
+      ["Cayenne", "Named in the product name on the pack alongside the greens."]
     ],
     source: "FOREVERFIELDSOFGREENS.PDF"
   },
@@ -385,8 +407,9 @@ window.PRODUCT_INGREDIENTS = {
   "forever-daily": {
     perServing: "",
     items: [
-      ["AOS Complex", "The multivitamin blend the sheet names."],
-      ["55 nutrients", "The sheet states the tablet carries 55 nutrients."]
+      ["AOS Complex", "The exclusive aloe-based complex the sheet says helps maximise the incorporation of nutrients into the body."],
+      ["Forever FVX20 Blend", "An innovative fusion of phytonutrients and bioflavonoids derived from fruits and vegetables, per the sheet."],
+      ["55 vitamins and minerals", "The aloe-coated multivitamin blend the product is built on."]
     ],
     source: "ForeverDaily_439.pdf"
   },
@@ -394,20 +417,20 @@ window.PRODUCT_INGREDIENTS = {
   "forever-focus": {
     perServing: "120 capsules.",
     items: [
-      ["Citicoline (Cognizin)", "Described on the sheet as a patented form of citicoline."],
-      ["Ginkgo biloba extract", "Named on the sheet."],
-      ["Bacopa extract", "Named on the sheet."],
-      ["Vitamins", "The sheet refers to herbs and vitamins alongside the citicoline."]
+      ["Citicoline (Cognizin)", "A clinically studied form of citicoline, a nutrient already found in the brain that the sheet says supports cognitive function, mental focus and attention."],
+      ["Ginkgo biloba extract", "Named in the blend of herbs and vitamins the sheet links to mental awareness."],
+      ["Bacopa extract", "The third named botanical in the blend."]
     ],
     source: "ForeverFocus.pdf"
   },
 
   "forever-kids": {
-    perServing: "",
+    perServing: "120 chewable tablets, no added sugar.",
     items: [
-      ["Vitamins A, D, E, C, B1, B2, B6, B12", "Named on the sheet."],
-      ["Niacin, folic acid, biotin and pantothenic acid", "Named on the sheet."],
-      ["Zinc", "Named on the sheet."]
+      ["Vitamins A, D, E, C, B1, B2, B6 and B12", "The core vitamins in the chewable multivitamin, per the sheet."],
+      ["Niacin, folic acid, biotin and pantothenic acid", "Named on the sheet among the tablet's vitamins."],
+      ["Zinc", "Named on the sheet among the tablet's minerals."],
+      ["Phytonutrient blend", "Taken from raw broccoli, spinach, carrots, beets and 16 other fruits and vegetables, per the sheet."]
     ],
     source: "ForeverKids_354.pdf"
   },
@@ -415,11 +438,10 @@ window.PRODUCT_INGREDIENTS = {
   "ivision": {
     perServing: "60 softgels, two daily with meals.",
     items: [
-      ["Lutemax 2020", "A marigold extract providing lutein, zeaxanthin and meso-zeaxanthin, per the sheet."],
-      ["Bilberry", "Named on the sheet."],
-      ["Zinc", "Named on the sheet."],
-      ["Vitamins A, C and E", "Named on the sheet."],
-      ["Beta-carotene", "Named on the sheet."]
+      ["Lutemax 2020", "A naturally derived marigold extract the sheet calls scientifically studied, supplying the three macular carotenoids lutein, zeaxanthin and meso-zeaxanthin."],
+      ["Bilberry", "Named among the botanicals in the formula."],
+      ["Zinc", "Listed on the pack with vitamins A and the carotenoids."],
+      ["Vitamin A", "Named on the pack alongside zinc."]
     ],
     source: "ForeveriVision.pdf"
   },
@@ -427,8 +449,8 @@ window.PRODUCT_INGREDIENTS = {
   "lycium-plus": {
     perServing: "",
     items: [
-      ["Licorice root", "Described as containing more than 150 compounds with antioxidant benefits."],
-      ["Lycium extract", "The second half of the blend in the product name."]
+      ["Lycium", "Goji berries or wolfberries, the ancient Chinese fruit the sheet calls rich in nutrients and known as the yin tonic."],
+      ["Licorice extract", "The boost the sheet pairs with the lycium, in a formula it describes as a powerful antioxidant."]
     ],
     source: "ForeverLyciumPlus_072.pdf"
   },
@@ -436,8 +458,8 @@ window.PRODUCT_INGREDIENTS = {
   "forever-move": {
     perServing: "",
     items: [
-      ["NEM brand natural eggshell membrane", "Named as a key ingredient, contributing 60 mg calcium per serving on the panel."],
-      ["Water-soluble curcumin", "Named in the sheet's proprietary blend."]
+      ["NEM (natural eggshell membrane)", "A food-sourced ingredient found in eggs that the sheet says delivers chondroitin, glycosaminoglycans, hyaluronic acid and key proteins like collagen; published studies cited by the sheet support a healthy range of motion."],
+      ["Water-soluble curcumin", "Named in the sheet's proprietary blend as the second mobility ingredient."]
     ],
     source: "ForeverMove.pdf"
   },
@@ -445,16 +467,11 @@ window.PRODUCT_INGREDIENTS = {
   "nature-min": {
     perServing: "Six tablets daily after meals.",
     items: [
-      ["Calcium", "Named among the minerals on the sheet."],
-      ["Magnesium", "Named on the sheet."],
-      ["Manganese", "Named on the sheet."],
-      ["Iron", "Named on the sheet."],
-      ["Zinc", "Named on the sheet."],
-      ["Molybdenum", "Named on the sheet."],
-      ["Phosphorus", "Named on the sheet."],
-      ["Selenium", "Named on the sheet."],
-      ["Iodine", "Named on the sheet."],
-      ["Copper", "Named on the sheet."]
+      ["Sea-bed and marine-plant minerals", "The source of the minerals: the sheet says they are taken from the bottom of sea beds and marine plants."],
+      ["Calcium, magnesium and phosphorus", "Named on the sheet among the minerals for muscle function and hydration."],
+      ["Iron, zinc and copper", "Named on the sheet among the trace minerals."],
+      ["Iodine and selenium", "Named on the sheet among the trace minerals."],
+      ["Manganese and molybdenum", "Named on the sheet among the trace minerals."]
     ],
     source: "NATUREMIN.PDF"
   },
@@ -462,9 +479,11 @@ window.PRODUCT_INGREDIENTS = {
   "forever-therm": {
     perServing: "",
     items: [
-      ["Green coffee bean", "Named among the key ingredients."],
-      ["Green tea", "Named among the key ingredients."],
-      ["B vitamins", "Named among the key ingredients."]
+      ["Green tea extract", "The driving force behind the supplement, at 50 percent EGCG, a polyphenol the sheet describes as powerful."],
+      ["Guarana", "Named with natural caffeine among the energy ingredients."],
+      ["Natural caffeine", "Named as part of the energy side of the formula."],
+      ["Raspberry ketones", "Named alongside the caffeine for boosting energy."],
+      ["B vitamins", "The sheet says they help the body metabolise carbohydrates, proteins and fats."]
     ],
     source: "ForeverTherm_463.PDF"
   },
@@ -472,8 +491,8 @@ window.PRODUCT_INGREDIENTS = {
   "forever-garlic-thyme": {
     perServing: "One softgel equals 1000 mg of fresh garlic.",
     items: [
-      ["Garlic concentrate oil", "Carries the 1000 mg fresh garlic equivalent per softgel."],
-      ["Thyme", "Named as the second half of the formula, described as containing antioxidant compounds."]
+      ["Garlic concentrate oil", "Carries the 1000 mg fresh garlic equivalent, in the odorless softgel the sheet describes as promoting cardiovascular health."],
+      ["Thyme", "The second half of what the sheet calls a superfood duo, fighting oxidative stress."]
     ],
     source: "ForeverGarlicThyme.pdf"
   }
