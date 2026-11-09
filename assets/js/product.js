@@ -127,7 +127,20 @@
       html += "<h3>How to use</h3><p>" + esc(detail.directions) + "</p>";
     }
 
-    if (detail.ingredients && detail.ingredients.length) {
+    var ing = (window.PRODUCT_INGREDIENTS || {})[p.id];
+    if (ing && ing.items && ing.items.length) {
+      html += "<h3>Ingredients</h3>";
+      if (ing.perServing) html += "<p class=\"detail-per\">" + esc(ing.perServing) + "</p>";
+      html += "<ul class=\"detail-list detail-ing\">" +
+        ing.items.map(function (row) {
+          return "<li><strong>" + esc(row[0]) + "</strong>" +
+            (row[1] ? ": " + esc(row[1]) : "") + "</li>";
+        }).join("") +
+        "</ul>";
+      if (ing.source) {
+        html += "<p class=\"detail-source\">Ingredient detail from " + esc(ing.source) + ".</p>";
+      }
+    } else if (detail.ingredients && detail.ingredients.length) {
       html += "<h3>Key ingredients</h3><p>" + esc(detail.ingredients.join(", ")) + "</p>";
     }
 

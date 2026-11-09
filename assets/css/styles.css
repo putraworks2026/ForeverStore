@@ -1096,3 +1096,14 @@ select.control {
   border-left: 2px solid var(--gold);
   padding-left: 10px;
 }
+
+.detail-per {
+  font-size: 0.9rem;
+  color: var(--brand);
+  margin-bottom: 10px !important;
+}
+
+.detail-ing li strong {
+  color: var(--ink);
+  font-weight: 600;
+}

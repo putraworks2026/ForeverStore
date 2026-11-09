@@ -7,7 +7,7 @@ const vm = require("vm");
 const ctx = { console, window: null, Date, JSON, Math, URLSearchParams };
 ctx.window = ctx;
 vm.createContext(ctx);
-for (const f of ["assets/data/products.js", "assets/data/details.js"]) {
+for (const f of ["assets/data/products.js", "assets/data/details.js", "assets/data/ingredients.js"]) {
   vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { filename: f });
 }
 
@@ -67,6 +67,27 @@ check("no stub bullets", shortBullets.length === 0, [...new Set(shortBullets)].j
 // Pack sizes must be stated, not guessed: allow empty, ban vague values.
 const vaguePack = Object.entries(D).filter(([, d]) => d.pack && /^(standard|regular|various|assorted)$/i.test(d.pack));
 check("no vague pack sizes", vaguePack.length === 0, vaguePack.map((x) => x[0]).join(", "));
+
+/* ---------- ingredient detail ---------- */
+const ING = ctx.PRODUCT_INGREDIENTS || {};
+const ingOrphans = Object.keys(ING).filter((k) => !ids.has(k));
+check("every ingredient block maps to a product", ingOrphans.length === 0, ingOrphans.join(", "));
+
+const badIng = [];
+for (const [id, g] of Object.entries(ING)) {
+  if (!g.source) badIng.push(id + ":no-source");
+  if (!Array.isArray(g.items) || !g.items.length) badIng.push(id + ":no-items");
+  else {
+    for (const row of g.items) {
+      if (!Array.isArray(row) || !row[0] || String(row[0]).trim().length < 3) badIng.push(id + ":bad-name");
+      if (row[1] !== undefined && String(row[1]).trim().length < 8) badIng.push(id + ":thin-note");
+    }
+  }
+  const text = [g.perServing || "", ...(g.items || []).map((r) => (r || []).join(" "))].join(" ");
+  const hit = BANNED.find((w) => new RegExp("\\b" + w + "\\b", "i").test(text));
+  if (hit) badIng.push(id + ":claim-" + hit);
+}
+check("ingredient blocks are complete and claim-free", badIng.length === 0, badIng.join(", "));
 
 console.log("");
 console.log(fails === 0 ? "ALL PASS" : fails + " FAILURES");
