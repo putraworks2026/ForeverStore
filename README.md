@@ -43,6 +43,39 @@ To reprice after a new retail list:
 an unknown SKU, a duplicate id or name, a missing image, a missing description, or broken cart
 maths.
 
+## Product information
+
+Detail copy for every product lives in `assets/data/details.js`, keyed by product id. Each entry
+records the document it came from in `source` and the date it was read in `verified`.
+
+The rule is absolute: **if a fact is not in the document, it is not on the page.** That means no
+benefit invented from general knowledge, no pack size that is not printed on the pack, and no
+medical claim. Statements the manufacturer makes in its own material are shown under
+"From the official fact sheet" and cited at the bottom of the section.
+
+The fact sheets in the library are image-only PDFs, so their text was read by OCR and then checked
+against the rendered page. Two products, Forever Lite Ultra with Aminotein and Awakening Eye Cream,
+have only a brochure entry in the archive; their pages say so rather than filling the gap.
+
+`tools/check-details.cjs` is the gate:
+
+```bash
+node tools/check-details.cjs
+```
+
+It fails on a missing source, a missing verification date, a thin summary, a stub bullet, a vague
+pack size, a detail entry with no product, a priced product with no detail, or any of the medical
+claim words in its blocklist (cure, treat, prevent, heal, diagnose, clinically proven, guaranteed,
+detox, prescription).
+
+To add or update a product:
+
+1. Drop the fact sheet in the archive and read off the description, features, how-to-use,
+   key ingredients, storage and certifications.
+2. Fill or update that product's entry in `assets/data/details.js`; leave fields empty rather than
+   guessing.
+3. Set `verified` to today's date and re-run both checks.
+
 ## Run locally
 
 ```bash

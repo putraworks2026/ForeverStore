@@ -90,6 +90,60 @@
     });
   }
 
+  /* ---------- more information ---------- */
+
+  var detail = (window.PRODUCT_DETAILS || {})[p.id];
+  if (detail) {
+    var esc = Cart.escapeHtml;
+    var box = document.getElementById("detail-body");
+    var wrap = document.getElementById("detail-extra");
+    var html = "";
+
+    if (detail.summary) {
+      html += '<p class="detail-lead">' + esc(detail.summary) + "</p>";
+      var meta = document.querySelector('meta[name="description"]');
+      if (meta) meta.setAttribute("content", detail.summary);
+    }
+
+    if (detail.highlights && detail.highlights.length) {
+      html += "<h3>From the official fact sheet</h3><ul class=\"detail-list\">" +
+        detail.highlights.map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("") +
+        "</ul>";
+    }
+
+    if (detail.directions) {
+      html += "<h3>How to use</h3><p>" + esc(detail.directions) + "</p>";
+    }
+
+    if (detail.ingredients && detail.ingredients.length) {
+      html += "<h3>Key ingredients</h3><p>" + esc(detail.ingredients.join(", ")) + "</p>";
+    }
+
+    if (detail.notes) {
+      html += "<h3>Good to know</h3><p>" + esc(detail.notes) + "</p>";
+    }
+
+    if (detail.certifications && detail.certifications.length) {
+      html += "<h3>Certifications</h3><ul class=\"detail-chips\">" +
+        detail.certifications.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") +
+        "</ul>";
+    }
+
+    if (!detail.highlights.length && !detail.directions) {
+      html += '<p class="detail-lead">The full fact sheet for this product is not in the archive yet, so only confirmed details are shown here.</p>';
+    }
+
+    if (box) box.innerHTML = html;
+
+    var src = document.getElementById("detail-source");
+    if (src && detail.source) {
+      src.textContent = "Source: " + detail.source + ", official Forever Living product material, read " +
+        (detail.verified || "") + ". Manufacturer statements, shown as published; they are not medical advice.";
+    }
+
+    if (wrap) wrap.hidden = false;
+  }
+
   /* ---------- related ---------- */
 
   var relatedBox = document.getElementById("related");

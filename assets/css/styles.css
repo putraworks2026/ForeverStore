@@ -1022,3 +1022,77 @@ select.control {
     transform: none;
   }
 }
+
+/* ---------- product: more information ---------- */
+
+.detail-extra {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.detail-extra h2 {
+  font-family: var(--display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin: 0 0 14px;
+}
+
+.detail-extra h3 {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 22px 0 8px;
+  font-weight: 600;
+}
+
+.detail-extra p {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
+.detail-lead {
+  color: var(--ink) !important;
+  font-size: 1.02rem;
+}
+
+.detail-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.detail-list li {
+  margin-bottom: 6px;
+}
+
+.detail-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.detail-chips li {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand);
+  background: var(--card);
+}
+
+.detail-source {
+  margin-top: 22px;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  border-left: 2px solid var(--gold);
+  padding-left: 10px;
+}
