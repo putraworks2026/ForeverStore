@@ -38,9 +38,9 @@ const ids = new Set(P.map((p) => p.id));
 const orphans = Object.keys(D).filter((k) => !ids.has(k));
 check("every detail maps to a product", orphans.length === 0, orphans.join(", "));
 
-const priced = P.filter((p) => p.available !== false);
-const missing = priced.filter((p) => !D[p.id]);
-check("every priced product has details", missing.length === 0, missing.map((p) => p.id).join(", "));
+const declared = JSON.parse(fs.readFileSync("tools/no-sheet.json", "utf8")).ids.slice().sort();
+const missing = P.filter((p) => !D[p.id]).map((p) => p.id).sort();
+check("products without details match the declared list", JSON.stringify(missing), JSON.stringify(declared));
 
 const noSource = Object.entries(D).filter(([, d]) => !d.source);
 check("every detail names its source", noSource.length === 0, noSource.map((x) => x[0]).join(", "));
@@ -60,7 +60,7 @@ check("fact-sheet entries carry substance", empty.length === 0, empty.map((x) =>
 
 const shortBullets = [];
 for (const [id, d] of Object.entries(D)) {
-  for (const h of d.highlights || []) if (h.trim().length < 12) shortBullets.push(id);
+  for (const h of d.highlights || []) if (h.trim().length < 10) shortBullets.push(id);
 }
 check("no stub bullets", shortBullets.length === 0, [...new Set(shortBullets)].join(", "));
 

@@ -1,0 +1,565 @@
+{
+ "note": "id/name/category/form for each Singapore price-list line",
+ "items": [
+  {
+   "code": "547",
+   "id": "clean-9-vanilla",
+   "name": "Forever Clean 9 — Vanilla",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "548",
+   "id": "clean-9-chocolate",
+   "name": "Forever Clean 9 — Chocolate",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "528",
+   "id": "f15-vanilla",
+   "name": "Forever F15 — Vanilla",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "529",
+   "id": "f15-chocolate",
+   "name": "Forever F15 — Chocolate",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "659",
+   "id": "dx4",
+   "name": "Forever Dx4",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "634",
+   "id": "start-your-journey-1",
+   "name": "Start Your Journey Pack #1",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "634A",
+   "id": "start-your-journey-2",
+   "name": "Start Your Journey Pack #2",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "634B",
+   "id": "start-your-journey-3",
+   "name": "Start Your Journey Pack #3",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "927",
+   "id": "daily-nutrition-pack",
+   "name": "Forever Daily Nutrition Pack",
+   "category": "Packs",
+   "form": "pack"
+  },
+  {
+   "code": "815",
+   "id": "aloe-vera-gel",
+   "name": "Forever Aloe Vera Gel",
+   "category": "Drinks",
+   "form": "bottle"
+  },
+  {
+   "code": "834",
+   "id": "aloe-berry-nectar",
+   "name": "Forever Aloe Berry Nectar",
+   "category": "Drinks",
+   "form": "bottle"
+  },
+  {
+   "code": "877",
+   "id": "aloe-bits-n-peaches",
+   "name": "Forever Aloe Bits N' Peaches",
+   "category": "Drinks",
+   "form": "bottle"
+  },
+  {
+   "code": "896",
+   "id": "forever-freedom",
+   "name": "Forever Freedom",
+   "category": "Drinks",
+   "form": "bottle"
+  },
+  {
+   "code": "200",
+   "id": "aloe-blossom-tea",
+   "name": "Forever Aloe Blossom Tea",
+   "category": "Drinks",
+   "form": "box"
+  },
+  {
+   "code": "504",
+   "id": "forever-argi-plus",
+   "name": "Forever ARGI+",
+   "category": "Drinks",
+   "form": "sachet"
+  },
+  {
+   "code": "312",
+   "id": "cardiohealth-coq10",
+   "name": "Forever CardioHealth with CoQ10",
+   "category": "Drinks",
+   "form": "sachet"
+  },
+  {
+   "code": "471",
+   "id": "forever-lite-ultra-chocolate",
+   "name": "Forever Lite Aminotein — Chocolate",
+   "category": "Shakes",
+   "form": "tub"
+  },
+  {
+   "code": "470",
+   "id": "forever-lite-ultra-vanilla",
+   "name": "Forever Lite Aminotein — Vanilla",
+   "category": "Shakes",
+   "form": "tub"
+  },
+  {
+   "code": "284",
+   "id": "aloe-avocado-soap",
+   "name": "Forever Aloe Avocado Face and Body Soap",
+   "category": "Skincare",
+   "form": "bar"
+  },
+  {
+   "code": "647",
+   "id": "aloe-body-lotion",
+   "name": "Forever Aloe Body Lotion",
+   "category": "Skincare",
+   "form": "bottle"
+  },
+  {
+   "code": "040",
+   "id": "aloe-first",
+   "name": "Forever Aloe First",
+   "category": "Skincare",
+   "form": "spray"
+  },
+  {
+   "code": "064",
+   "id": "aloe-heat-lotion",
+   "name": "Forever Aloe Heat Lotion",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "022RA",
+   "id": "aloe-lips",
+   "name": "Forever Aloe Lips (2 pieces)",
+   "category": "Skincare",
+   "form": "stick"
+  },
+  {
+   "code": "022RC",
+   "id": "aloe-lips-12",
+   "name": "Forever Aloe Lips (12 pieces)",
+   "category": "Skincare",
+   "form": "stick"
+  },
+  {
+   "code": "063",
+   "id": "aloe-moisturizing-lotion",
+   "name": "Forever Aloe Moisturizing Lotion",
+   "category": "Skincare",
+   "form": "bottle"
+  },
+  {
+   "code": "205",
+   "id": "forever-aloe-msm-gel",
+   "name": "Forever Aloe MSM Gel",
+   "category": "Skincare",
+   "form": "bottle"
+  },
+  {
+   "code": "051",
+   "id": "aloe-propolis-creme",
+   "name": "Forever Aloe Propolis Creme",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "238",
+   "id": "aloe-scrub",
+   "name": "Forever Aloe Scrub",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "061",
+   "id": "aloe-vera-gelly",
+   "name": "Forever Aloe Vera Gelly",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "646",
+   "id": "aloe-body-wash",
+   "name": "Forever Aloe Body Wash",
+   "category": "Personal care",
+   "form": "bottle"
+  },
+  {
+   "code": "067",
+   "id": "aloe-ever-shield",
+   "name": "Forever Aloe Ever-Shield",
+   "category": "Personal care",
+   "form": "stick"
+  },
+  {
+   "code": "641",
+   "id": "aloe-jojoba-conditioner",
+   "name": "Forever Aloe-Jojoba Conditioner",
+   "category": "Personal care",
+   "form": "bottle"
+  },
+  {
+   "code": "640",
+   "id": "aloe-jojoba-shampoo",
+   "name": "Forever Aloe-Jojoba Shampoo",
+   "category": "Personal care",
+   "form": "bottle"
+  },
+  {
+   "code": "633",
+   "id": "aloe-liquid-soap",
+   "name": "Forever Aloe Liquid Soap",
+   "category": "Personal care",
+   "form": "bottle"
+  },
+  {
+   "code": "617",
+   "id": "aloe-sunscreen",
+   "name": "Forever Aloe Sunscreen SPF 30",
+   "category": "Personal care",
+   "form": "tube"
+  },
+  {
+   "code": "028",
+   "id": "bright-toothgel",
+   "name": "Forever Bright Toothgel",
+   "category": "Personal care",
+   "form": "tube"
+  },
+  {
+   "code": "612",
+   "id": "aloe-activator",
+   "name": "Forever Aloe Activator",
+   "category": "Skincare",
+   "form": "bottle"
+  },
+  {
+   "code": "561",
+   "id": "aloe-eye-gel",
+   "name": "Forever Aloe Awakening Eye Creme",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "618",
+   "id": "hydrating-serum",
+   "name": "Forever Hydrating Serum",
+   "category": "Skincare",
+   "form": "dropper"
+  },
+  {
+   "code": "556",
+   "id": "infinite-firming-complex",
+   "name": "Infinite Firming Complex",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "555",
+   "id": "infinite-firming-serum",
+   "name": "Infinite Firming Serum",
+   "category": "Skincare",
+   "form": "dropper"
+  },
+  {
+   "code": "554",
+   "id": "infinite-hydrating-cleanser",
+   "name": "Infinite Hydrating Cleanser",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "558",
+   "id": "infinite-restoring-cream",
+   "name": "Infinite Restoring Cream",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "559",
+   "id": "smoothing-exfoliator",
+   "name": "Infinite Smoothing Exfoliator",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "645",
+   "id": "protecting-day-lotion",
+   "name": "Infinite Protecting Day Lotion SPF 20",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "653",
+   "id": "replenishing-skin-oil",
+   "name": "Forever Replenishing Skin Oil",
+   "category": "Skincare",
+   "form": "dropper"
+  },
+  {
+   "code": "664",
+   "id": "aloe-bio-cellulose-mask",
+   "name": "Forever Aloe Bio-Cellulose Mask",
+   "category": "Skincare",
+   "form": "sachet"
+  },
+  {
+   "code": "650",
+   "id": "renewing-skin-creme",
+   "name": "Forever Renewing Skin Creme",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "652",
+   "id": "tightening-mask-powder",
+   "name": "Forever Tightening Mask Powder",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "667",
+   "id": "logic-aloe-gel-cleanser",
+   "name": "Logic Aloe Gel Cleanser",
+   "category": "Skincare",
+   "form": "tube"
+  },
+  {
+   "code": "668",
+   "id": "logic-balancing-essence",
+   "name": "Logic Balancing Aloe Essence",
+   "category": "Skincare",
+   "form": "bottle"
+  },
+  {
+   "code": "669",
+   "id": "logic-soothing-moisturizer",
+   "name": "Logic Soothing Gel Moisturizer",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "677",
+   "id": "refining-gel-mask",
+   "name": "Forever Refining Gel Mask",
+   "category": "Skincare",
+   "form": "jar"
+  },
+  {
+   "code": "686",
+   "id": "forever-vitamin-c",
+   "name": "Forever Vitamin C",
+   "category": "Skincare",
+   "form": "dropper"
+  },
+  {
+   "code": "687",
+   "id": "forever-bakuchiol",
+   "name": "Forever Bakuchiol",
+   "category": "Skincare",
+   "form": "dropper"
+  },
+  {
+   "code": "048",
+   "id": "absorbent-c",
+   "name": "Forever Absorbent-C",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "264",
+   "id": "active-ha",
+   "name": "Forever Active HA",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "610",
+   "id": "active-probiotic",
+   "name": "Forever Active Pro-B",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "376",
+   "id": "arctic-sea-omega-3",
+   "name": "Forever Arctic Sea Omega 3",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "188",
+   "id": "b12-plus",
+   "name": "Forever B12 Plus",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "206",
+   "id": "forever-calcium",
+   "name": "Forever Calcium",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "464",
+   "id": "forever-fiber",
+   "name": "Forever Fiber",
+   "category": "Supplements",
+   "form": "sachet"
+  },
+  {
+   "code": "068",
+   "id": "fields-of-greens",
+   "name": "Forever Fields of Greens",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "439",
+   "id": "forever-daily",
+   "name": "Forever Daily",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "622",
+   "id": "forever-focus",
+   "name": "Forever Focus",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "354",
+   "id": "forever-kids",
+   "name": "Forever Kids",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "071",
+   "id": "garcinia-plus",
+   "name": "Forever Garcinia Plus",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "566",
+   "id": "immune-gummy",
+   "name": "Forever Immune Gummy",
+   "category": "Supplements",
+   "form": "jar"
+  },
+  {
+   "code": "624",
+   "id": "ivision",
+   "name": "Forever iVision",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "072",
+   "id": "lycium-plus",
+   "name": "Forever Lycium Plus",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "551",
+   "id": "forever-move",
+   "name": "Forever Move",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "037",
+   "id": "nature-min",
+   "name": "Forever Nature-Min",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "463",
+   "id": "forever-therm",
+   "name": "Forever Therm",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "374",
+   "id": "vitolize-men",
+   "name": "Forever Vitolize Men's",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "375",
+   "id": "vitolize-women",
+   "name": "Forever Vitolize Women's",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "065",
+   "id": "forever-garlic-thyme",
+   "name": "Forever Garlic-Thyme",
+   "category": "Supplements",
+   "form": "bottle"
+  },
+  {
+   "code": "207",
+   "id": "forever-bee-honey",
+   "name": "Forever Bee Honey",
+   "category": "Bee products",
+   "form": "jar"
+  },
+  {
+   "code": "026",
+   "id": "forever-bee-pollen",
+   "name": "Forever Bee Pollen",
+   "category": "Bee products",
+   "form": "jar"
+  },
+  {
+   "code": "027",
+   "id": "forever-bee-propolis",
+   "name": "Forever Bee Propolis",
+   "category": "Bee products",
+   "form": "jar"
+  },
+  {
+   "code": "036",
+   "id": "forever-royal-jelly",
+   "name": "Forever Royal Jelly",
+   "category": "Bee products",
+   "form": "jar"
+  }
+ ]
+}

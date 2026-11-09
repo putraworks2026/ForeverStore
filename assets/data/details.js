@@ -455,5 +455,518 @@ window.PRODUCT_DETAILS = {
     certifications: [],
     source: "ForeverAbsorbent-C.pdf",
     verified: "2026-11-10"
-  }
+  },
+  "clean-9-chocolate": {
+    summary: "Nine-day programme built around the Forever Lite Ultra shake. The sheet describes the chocolate shake mix as blending fresh mint and cacao nibs with the richness of Forever Lite Ultra Chocolate.",
+    pack: "",
+    highlights: [
+      "Sold as a nine-day programme",
+      "Shake mix described as blending fresh mint and cacao nibs with Forever Lite Ultra Chocolate"
+    ],
+    ingredients: ["Forever Lite Ultra Chocolate shake mix", "Cacao nibs", "Mint"],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "C9.PDF",
+    verified: "2026-11-10"
+  },
+
+  "f15-vanilla": {
+    summary: "Fifteen-day programme of Forever products taken on a set schedule. The sheet states each product in F15 was selected to work together, and lists aloe vera gel, Forever Fiber stick packs and supplements in the schedule.",
+    pack: "",
+    highlights: [
+      "Each product in F15 was carefully selected to work together",
+      "Aloe vera gel is the first product in the beginner schedule",
+      "Supplements are taken as directed in the enclosed supplement schedule"
+    ],
+    ingredients: [],
+    directions: "Follow the supplement schedule supplied with the pack.",
+    notes: "",
+    certifications: [],
+    source: "F15SGP_EN.PDF",
+    verified: "2026-11-10"
+  },
+
+  "f15-chocolate": {
+    summary: "Fifteen-day programme of Forever products taken on a set schedule, in the chocolate variant. The sheet states each product was selected to work together.",
+    pack: "",
+    highlights: [
+      "Each product in F15 was carefully selected to work together",
+      "Product intakes follow the enclosed supplement schedule"
+    ],
+    ingredients: [],
+    directions: "Follow the supplement schedule supplied with the pack.",
+    notes: "",
+    certifications: [],
+    source: "F15SGP_EN.PDF",
+    verified: "2026-11-10"
+  },
+
+  "dx4": {
+    summary: "Four-day reset system built from a combination of Forever nutritional products and supplements. The sheet presents it as a four-day system to reset and renew.",
+    pack: "",
+    highlights: [
+      "Sold as a four-day system",
+      "Combines nutritional products with supplements"
+    ],
+    ingredients: [],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "dx4_en.pdf",
+    verified: "2026-11-10"
+  },
+
+  "start-your-journey-1": {
+    summary: "Preferred Customer starter bundle sold as one pack. The pack sheet lists the contents; ask us for the current contents of this pack before ordering.",
+    pack: "",
+    highlights: [
+      "Sold as a single pack for Preferred Customers"
+    ],
+    ingredients: [],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "syjpsgp_en.pdf",
+    verified: "2026-11-10"
+  },
+
+  "start-your-journey-2": {
+    summary: "Preferred Customer starter bundle sold as one pack. The pack sheet lists the contents; ask us for the current contents of this pack before ordering.",
+    pack: "",
+    highlights: [
+      "Sold as a single pack for Preferred Customers"
+    ],
+    ingredients: [],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "syjpsgp_en.pdf",
+    verified: "2026-11-10"
+  },
+
+  "start-your-journey-3": {
+    summary: "Preferred Customer starter bundle sold as one pack. The pack sheet lists the contents; ask us for the current contents of this pack before ordering.",
+    pack: "",
+    highlights: [
+      "Sold as a single pack for Preferred Customers"
+    ],
+    ingredients: [],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "syjpsgp_en.pdf",
+    verified: "2026-11-10"
+  },
+
+  "cardiohealth-coq10": {
+    summary: "Sachets of a CoQ10 complex stirred into a serving of aloe vera gel. The sheet states one sachet provides 80 mg of CoQ10, with vitamin C, E, B6, B12, folate, magnesium and chromium.",
+    pack: "Sachets",
+    highlights: [
+      "One sachet provides 80 mg of CoQ10",
+      "Contains vitamin C, E, B6, B12, folate, magnesium and chromium",
+      "The sheet names boswellia extract and grape seed extract among the ingredients"
+    ],
+    ingredients: ["CoQ10", "Boswellia extract", "Grape seed extract", "Vitamin C", "Vitamin E", "Vitamin B6", "Vitamin B12", "Folate", "Magnesium", "Chromium"],
+    directions: "Pour one packet into a serving of Forever Aloe Vera Gel, stir and drink.",
+    notes: "The sheet lists it as suitable for people who work long hours and those looking for heart-promoting nutrients.",
+    certifications: [],
+    source: "CARDIOHEALTHWITHCOQ10.PDF",
+    verified: "2026-11-10"
+  },
+
+  "aloe-avocado-soap": {
+    summary: "Face and body soap made with aloe vera and avocado oil, described on the sheet as gentle cleansing that leaves skin soft and supple.",
+    pack: "",
+    highlights: [
+      "Rich texture",
+      "Freshly-picked citrus scent",
+      "Cleanses without leaving skin tight"
+    ],
+    ingredients: ["Aloe vera", "Avocado oil"],
+    directions: "Use to cleanse the skin as needed. Rinse completely, then gently pat dry with a towel.",
+    notes: "",
+    certifications: [],
+    source: "AloeAvocadoFaceAndBodySoap.pdf",
+    verified: "2026-11-10"
+  },
+
+  "aloe-first": {
+    summary: "Spray for the first aid kit formulated with stabilised aloe vera gel, bee propolis and a blend of herbs.",
+    pack: "",
+    highlights: [
+      "Formulated with stabilised aloe vera gel from Forever's own fields",
+      "Also contains bee propolis and a proprietary herbal blend",
+      "The sheet describes it as a must-have for the first aid kit"
+    ],
+    ingredients: ["Stabilised aloe vera gel", "Bee propolis", "Herbal blend"],
+    directions: "Apply liberally to the skin as needed to soothe and moisturise.",
+    notes: "For external use only.",
+    certifications: [],
+    source: "ALOEFIRST.PDF",
+    verified: "2026-11-10"
+  },
+
+  "aloe-lips-12": {
+    summary: "Twelve-tube pack of the aloe and jojoba lip balm, sold as a single order line.",
+    pack: "12 pieces",
+    highlights: [
+      "Sold as a 12-piece pack",
+      "Balms are the standard Forever Aloe Lips tubes"
+    ],
+    ingredients: ["Aloe vera", "Jojoba"],
+    directions: "Apply on the lips regularly as a moisturiser.",
+    notes: "",
+    certifications: [],
+    source: "ForeverAloeLips.pdf",
+    verified: "2026-11-10"
+  },
+
+  "aloe-body-wash": {
+    summary: "Body wash described on the sheet as a sulfate-free, pH-balanced cleanser with a creamy foam, scented with woods, amber and herbs.",
+    pack: "",
+    highlights: [
+      "Sulfate-free formula",
+      "pH-balanced",
+      "Rich creamy foam that rinses easily"
+    ],
+    ingredients: ["Vitamins A, C and E"],
+    directions: "Apply to a shower puff, loofah or sponge and gently soap the entire body using a circular motion. Rinse well.",
+    notes: "",
+    certifications: [],
+    source: "ALOEBODYWASH.PDF",
+    verified: "2026-11-10"
+  },
+
+  "aloe-sunscreen": {
+    summary: "SPF 30 sunscreen lotion for the face and body, built on a non-nanosized zinc oxide filter.",
+    pack: "",
+    highlights: [
+      "SPF 30 protection from UVA and UVB rays",
+      "Water resistant for 80 minutes",
+      "Uses natural non-nanosized zinc oxide"
+    ],
+    ingredients: [],
+    directions: "Apply liberally to all exposed areas 15 to 30 minutes before sun exposure. Reapply within 40 minutes of any water activity or at least every two hours.",
+    notes: "",
+    certifications: [],
+    source: "ALOESUNSCREEN.PDF",
+    verified: "2026-11-10"
+  },
+
+  "aloe-activator": {
+    summary: "Aloe vera gel-based skin refresher the sheet describes as containing over 98% aloe vera gel, used to clean or freshen the skin or to mix a mask.",
+    pack: "",
+    highlights: [
+      "Over 98% aloe vera gel",
+      "Gentle enough for the entire face, including the eye area",
+      "Contains enzymes, amino acids and polysaccharides"
+    ],
+    ingredients: [],
+    directions: "Apply to a cotton ball and gently wipe across the skin to clean or freshen. For a mask, mix 1 tsp of Tightening Mask Powder with the Activator.",
+    notes: "",
+    certifications: [],
+    source: "ALOEACTIVATOR.PDF",
+    verified: "2026-11-10"
+  },
+
+  "replenishing-skin-oil": {
+    summary: "Lightweight, silicone-free facial oil with retinyl palmitate and vitamin E, for face, neck and dry areas.",
+    pack: "",
+    highlights: [
+      "Lightweight fluid that glides on easily",
+      "Made with retinyl palmitate, borage seed oil, C15-19 alkane and safflower seed oil",
+      "Silicone-free"
+    ],
+    ingredients: ["Retinyl palmitate", "Vitamin E", "Borage seed oil", "C15-19 alkane", "Safflower seed oil"],
+    directions: "Apply to face, neck and dry areas where needed. For added moisture, dampen the skin with Aloe Activator first.",
+    notes: "The sheet advises a patch test if unsure about sensitivity, and consulting a health professional during pregnancy.",
+    certifications: [],
+    source: "REPLENISHINGSKINOIL.PDF",
+    verified: "2026-11-10"
+  },
+
+  "aloe-bio-cellulose-mask": {
+    summary: "Single-use sheet mask made from bio-cellulose and infused with aloe, described as deep hydration without rinsing.",
+    pack: "",
+    highlights: [
+      "Easy to use, no rinsing required",
+      "The sheet describes it as ideal for sensitive skin",
+      "Designed to reduce the appearance of redness"
+    ],
+    ingredients: [],
+    directions: "Open the pouch and unfold the mask, which is protected by a woven fabric on each side. Remove one layer, apply the mask to the face, then remove the second layer.",
+    notes: "",
+    certifications: [],
+    source: "ALOEBIOCELLULOSEMASK.PDF",
+    verified: "2026-11-10"
+  },
+
+  "renewing-skin-creme": {
+    summary: "Night cream fortified with vitamins A and E, which the sheet describes as restoring and renewing the skin's appearance.",
+    pack: "",
+    highlights: [
+      "Fortified with vitamins A and E",
+      "Helps maintain the skin's natural moisture",
+      "Described as promoting the appearance of younger-looking skin"
+    ],
+    ingredients: ["Vitamin A", "Vitamin E"],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "RSCPB.PDF",
+    verified: "2026-11-10"
+  },
+
+  "logic-aloe-gel-cleanser": {
+    summary: "Step one of the three-step Logic routine: a gel cleanser with desert date fruit extract, which the sheet says helps promote hydration.",
+    pack: "",
+    highlights: [
+      "Step 1 of the Logic by Forever routine",
+      "Made with desert date fruit extract",
+      "Suitable for vegans and vegetarians"
+    ],
+    ingredients: ["Desert date fruit extract"],
+    directions: "",
+    notes: "",
+    certifications: ["Vegan", "Vegetarian"],
+    source: "LOGICSG.PDF",
+    verified: "2026-11-10"
+  },
+
+  "logic-balancing-essence": {
+    summary: "Step two of the three-step Logic routine: a balancing essence applied after the gel cleanser.",
+    pack: "",
+    highlights: [
+      "Step 2 of the Logic by Forever routine",
+      "Follows the Aloe Gel Cleanser",
+      "Suitable for vegans and vegetarians"
+    ],
+    ingredients: [],
+    directions: "",
+    notes: "",
+    certifications: ["Vegan", "Vegetarian"],
+    source: "LOGICSG.PDF",
+    verified: "2026-11-10"
+  },
+
+  "logic-soothing-moisturizer": {
+    summary: "Step three of the three-step Logic routine: a soothing gel moisturiser made with jojoba esters, which the sheet says help nourish the skin.",
+    pack: "",
+    highlights: [
+      "Step 3 of the Logic by Forever routine",
+      "Made with jojoba esters",
+      "Suitable for vegans and vegetarians"
+    ],
+    ingredients: ["Jojoba esters"],
+    directions: "",
+    notes: "",
+    certifications: ["Vegan", "Vegetarian"],
+    source: "LOGICSG.PDF",
+    verified: "2026-11-10"
+  },
+
+  "refining-gel-mask": {
+    summary: "Overnight gel mask in a 59 ml tube, described on the sheet as nourishing skin while you sleep without feeling greasy.",
+    pack: "59 ml",
+    highlights: [
+      "Described as nourishing skin while you sleep",
+      "Leaves skin feeling soft without a greasy finish",
+      "Vegan and cruelty-free formula"
+    ],
+    ingredients: [],
+    directions: "Apply as a mask and leave on overnight, then rinse.",
+    notes: "For external use only.",
+    certifications: ["Vegan", "Cruelty-free"],
+    source: "GELEN.PDF",
+    verified: "2026-11-10"
+  },
+
+  "b12-plus": {
+    summary: "Time-release tablets combining vitamin B12 and folic acid. The sheet states each tablet carries 500 mcg of vitamin B12 and 400 mcg of folic acid.",
+    pack: "",
+    highlights: [
+      "Time-release formula",
+      "Each tablet contains 500 mcg vitamin B12 and 400 mcg folic acid",
+      "The sheet lists vegetarians, vegans and pregnant or breastfeeding mothers among those it suits"
+    ],
+    ingredients: ["Folic acid", "Vitamin B12"],
+    directions: "Take one to two tablets daily after meals.",
+    notes: "",
+    certifications: ["Vegetarian", "Vegan"],
+    source: "B12PLUS.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-calcium": {
+    summary: "Calcium and vitamin D tablets with manganese, copper and vitamin C. The sheet describes the formula as supporting bone health.",
+    pack: "",
+    highlights: [
+      "Made with calcium and vitamin D",
+      "Enhanced with manganese, copper and vitamin C",
+      "The sheet describes it as suitable for the elderly"
+    ],
+    ingredients: ["Calcium", "Vitamin D", "Manganese", "Copper", "Vitamin C"],
+    directions: "Take 3 to 4 tablets daily as a dietary supplement.",
+    notes: "The sheet suggests taking it away from coffee.",
+    certifications: [],
+    source: "FOREVERCALCIUM.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-fiber": {
+    summary: "Stick packs of four types of fibre that dissolve in any drink. The sheet names acacia gum, soluble corn fibre and fructooligosaccharides.",
+    pack: "30 stick-packs",
+    highlights: [
+      "Easy-to-use stick pack",
+      "Dissolves quickly into any drink",
+      "Mild, grit-free taste",
+      "Four types of fibre, including acacia gum, soluble corn fibre and fructooligosaccharides"
+    ],
+    ingredients: ["Acacia gum", "Soluble corn fibre", "Fructooligosaccharides"],
+    directions: "",
+    notes: "",
+    certifications: [],
+    source: "FOREVERFIBER.PDF",
+    verified: "2026-11-10"
+  },
+
+  "fields-of-greens": {
+    summary: "Tablets made from barley grass, wheatgrass, alfalfa and other greens, described on the sheet as green goodness in every tablet.",
+    pack: "",
+    highlights: [
+      "Made with barley grass, wheatgrass, alfalfa and other greens"
+    ],
+    ingredients: ["Barley grass", "Wheatgrass", "Alfalfa"],
+    directions: "Take one tablet twice a day before a meal.",
+    notes: "",
+    certifications: [],
+    source: "FOREVERFIELDSOFGREENS.PDF",
+    verified: "2026-11-10"
+  },
+
+  "forever-daily": {
+    summary: "Multivitamin and mineral tablets coated in aloe. The sheet states 55 vitamins and nutrients and an AOS delivery complex.",
+    pack: "",
+    highlights: [
+      "55 vitamins and nutrients",
+      "Exclusive AOS complex used to aid delivery",
+      "Aloe-coated tablets"
+    ],
+    ingredients: ["AOS complex", "55 vitamins and minerals"],
+    directions: "Take two tablets twice daily with meals.",
+    notes: "The sheet suggests taking it with Forever Nature-Min.",
+    certifications: [],
+    source: "ForeverDaily_439.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-focus": {
+    summary: "Capsules built around Cognizin citicoline, described on the sheet as supporting mental clarity and organised thought.",
+    pack: "",
+    highlights: [
+      "Uses Cognizin, a studied form of citicoline",
+      "Also contains vitamin B6 and ginkgo biloba extract",
+      "The sheet lists professionals, gamers, students and active seniors among those it suits"
+    ],
+    ingredients: ["Cognizin citicoline", "Vitamin B6", "Ginkgo biloba extract"],
+    directions: "Take four capsules with a meal in the morning.",
+    notes: "The sheet advises not taking it after 4 pm or before bedtime.",
+    certifications: [],
+    source: "ForeverFocus.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-kids": {
+    summary: "Grape-flavoured chewable multivitamin for children, with no added sugar and no artificial flavours or colours.",
+    pack: "",
+    highlights: [
+      "No added sugar",
+      "No artificial flavours, colours or preservatives",
+      "High in vitamins A, D, E, C, B1, B2, B6, B12, niacin, folic acid, biotin and pantothenic acid, plus zinc"
+    ],
+    ingredients: ["Vitamins A, D, E, C, B1, B2, B6, B12", "Niacin", "Folic acid", "Biotin", "Pantothenic acid", "Zinc"],
+    directions: "Children over 4 and adults take four tablets daily. Children aged 2 to 4 take two tablets daily.",
+    notes: "",
+    certifications: [],
+    source: "ForeverKids_354.pdf",
+    verified: "2026-11-10"
+  },
+
+  "ivision": {
+    summary: "Eye supplement softgels built on Lutemax 2020, which the sheet says supplies the carotenoids lutein, zeaxanthin and meso-zeaxanthin.",
+    pack: "",
+    highlights: [
+      "Lutemax 2020 supplies lutein, zeaxanthin and meso-zeaxanthin",
+      "Also contains vitamins A, C and E",
+      "The sheet lists professionals, gamers, students and active seniors among those it suits"
+    ],
+    ingredients: ["Lutemax 2020", "Vitamin A", "Vitamin C", "Vitamin E"],
+    directions: "Take two softgels with meals daily.",
+    notes: "",
+    certifications: [],
+    source: "ForeveriVision.pdf",
+    verified: "2026-11-10"
+  },
+
+  "lycium-plus": {
+    summary: "Tablets blending lycium extract with licorice root, described on the sheet as a balanced blend of botanicals.",
+    pack: "",
+    highlights: [
+      "Combines lycium extract and licorice root",
+      "The sheet notes licorice as a herb with antioxidant benefits"
+    ],
+    ingredients: ["Licorice root", "Lycium extract"],
+    directions: "Take one tablet three times daily after a meal.",
+    notes: "",
+    certifications: ["Vegetarian", "Vegan"],
+    source: "ForeverLyciumPlus_072.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-move": {
+    summary: "Joint and muscle softgels built on NEM, described on the sheet as its most advanced mobility formula.",
+    pack: "",
+    highlights: [
+      "Built on NEM, described as clinically tested",
+      "The sheet states results confirmed in as early as 7 to 10 days",
+      "Also contains turmeric"
+    ],
+    ingredients: ["NEM", "Turmeric"],
+    directions: "Take one softgel three times daily.",
+    notes: "The sheet suggests taking it with Forever Aloe Vera Gel for joint care.",
+    certifications: [],
+    source: "ForeverMove.pdf",
+    verified: "2026-11-10"
+  },
+
+  "nature-min": {
+    summary: "Multi-mineral tablets supplying essential and trace minerals. The sheet names calcium, magnesium, manganese, iron, zinc, molybdenum, phosphorus, selenium, iodine and copper.",
+    pack: "",
+    highlights: [
+      "A blend of essential and trace minerals"
+    ],
+    ingredients: ["Calcium", "Magnesium", "Manganese", "Iron", "Zinc", "Molybdenum", "Phosphorus", "Selenium", "Iodine", "Copper"],
+    directions: "Take six tablets daily after meals.",
+    notes: "",
+    certifications: [],
+    source: "NATUREMIN.pdf",
+    verified: "2026-11-10"
+  },
+
+  "forever-therm": {
+    summary: "Tablets combining green tea, guarana, natural caffeine and raspberry ketone, with B vitamins and vitamin C.",
+    pack: "",
+    highlights: [
+      "Contains vitamin C, B1, B2, niacin, B6, B12, folate and pantothenic acid",
+      "Contains guarana seed extract and raspberry ketones",
+      "Also lists green coffee bean and green tea"
+    ],
+    ingredients: ["B vitamins", "Green coffee bean", "Green tea", "Guarana seed extract", "Raspberry ketones"],
+    directions: "Take two tablets daily with meals.",
+    notes: "Do not take after 4 pm because of the natural caffeine content.",
+    certifications: ["Vegetarian", "Vegan"],
+    source: "ForeverTherm_463.pdf",
+    verified: "2026-11-10"
+  },
 };

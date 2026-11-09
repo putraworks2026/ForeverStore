@@ -92,10 +92,14 @@ const ids = P.map((p) => p.id);
 check("unique ids", ids.length, new Set(ids).size);
 check("unique names", P.length, new Set(P.map((p) => p.name)).size);
 check("categories valid", [...new Set(P.map((p) => p.category))].sort(), [...ctx.CATEGORIES].sort());
-check("all have image", P.filter((p) => !fs.existsSync("assets/img/" + p.id + ".svg")).map((p) => p.id), []);
-const unsourced = P.filter((p) => p.available !== false &&
-  !((ctx.PRODUCT_DETAILS[p.id] || {}).summary || "").trim().length);
-check("all priced products have sourced copy", unsourced.map((p) => p.id), []);
+check("all have image", P.filter((p) => !p.img || !fs.existsSync(p.img)).map((p) => p.id), []);
+const noSheet = JSON.parse(fs.readFileSync("tools/no-sheet.json", "utf8")).ids;
+const unsourced = P.filter((p) => !((ctx.PRODUCT_DETAILS[p.id] || {}).summary || "").trim().length).map((p) => p.id);
+check("products without details match the declared list", unsourced.sort(), noSheet.slice().sort());
+const plCodes = new Set(JSON.parse(fs.readFileSync("assets/data/price-list.json", "utf8")).items.map((x) => x.code));
+const shopCodes = new Set(P.map((p) => p.sku));
+check("every retail price-list line is in the shop", [...plCodes].filter((c) => !shopCodes.has(c)), []);
+check("no shop line without a price-list entry", [...shopCodes].filter((c) => !plCodes.has(c)), []);
 const strayBlurb = P.filter((p) => p.blurb || p.notes).map((p) => p.id);
 check("no unsourced blurb fields left in the catalogue", strayBlurb, []);
 

@@ -45,36 +45,40 @@ maths.
 
 ## Product information
 
-Detail copy for every product lives in `assets/data/details.js`, keyed by product id. Each entry
-records the document it came from in `source` and the date it was read in `verified`.
+The shop lists all 80 lines of the Singapore retail price list. Names, categories and pack forms
+come from `tools/catalogue-map.json`; prices and order codes come from
+`assets/data/price-list.json`. `node tools/build-catalogue.cjs` regenerates
+`assets/data/products.js` from those two files, so no product or figure is typed twice.
 
-The rule is absolute: **if a fact is not in the document, it is not on the page.** That means no
-benefit invented from general knowledge, no pack size that is not printed on the pack, and no
-medical claim. Statements the manufacturer makes in its own material are shown under
-"From the official fact sheet" and cited at the bottom of the section.
+Detail copy for 60 products lives in `assets/data/details.js`, keyed by product id. Each entry
+records the fact sheet it came from and the date it was read: summary, the sheet's own feature
+list, key ingredients, how to use, storage or warnings, and certifications. Nothing is written
+from general knowledge; if a fact is not on the sheet, it is not in the file.
 
-The fact sheets in the library are image-only PDFs, so their text was read by OCR and then checked
-against the rendered page. Two products, Forever Lite Ultra with Aminotein and Awakening Eye Cream,
-have only a brochure entry in the archive; their pages say so rather than filling the gap.
+The 20 products without a fact sheet in the archive are listed in `tools/no-sheet.json`. Their
+pages carry price and order code and a plain statement that nothing has been written about them
+yet. When a sheet arrives, add an entry to `details.js`, remove the id from `no-sheet.json`, and
+run the checks.
 
-`tools/check-details.cjs` is the gate:
+Product pictures live in `assets/img/`. A file named after the product id is used when one exists;
+otherwise the page falls back to a generic illustration for that pack form (`form-bottle.svg`,
+`form-jar.svg`, `form-tube.svg` and so on).
+
+The sheets are image-only PDFs, so their text was read with OCR and each entry was checked by
+hand against the page before it was written.
+
+## Checks
 
 ```bash
-node tools/check-details.cjs
+node tools/check-catalogue.cjs   # prices vs price list, coverage, ids, images, cart maths
+node tools/check-details.cjs     # sources, no medical claims, no stubs, declared gaps
 ```
 
-It fails on a missing source, a missing verification date, a thin summary, a stub bullet, a vague
-pack size, a detail entry with no product, a priced product with no detail, or any of the medical
-claim words in its blocklist (cure, treat, prevent, heal, diagnose, clinically proven, guaranteed,
-detox, prescription).
-
-To add or update a product:
-
-1. Drop the fact sheet in the archive and read off the description, features, how-to-use,
-   key ingredients, storage and certifications.
-2. Fill or update that product's entry in `assets/data/details.js`; leave fields empty rather than
-   guessing.
-3. Set `verified` to today's date and re-run both checks.
+`check-catalogue.cjs` fails on a price that does not match the price list, a price-list line
+missing from the shop, a shop line with no price-list entry, a duplicate id or name, a missing
+illustration, or broken cart maths. `check-details.cjs` fails on an unsourced entry, a missing
+verification date, a stub bullet, a vague pack size, or the words cure, treat, prevent, heal,
+diagnose, guaranteed, detox or prescription.
 
 ## Run locally
 

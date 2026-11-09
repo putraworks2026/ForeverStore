@@ -45,7 +45,7 @@
 
   var media = document.getElementById("p-media");
   if (media) {
-    media.src = "assets/img/" + p.id + ".svg";
+    media.src = p.img;
     media.alt = p.name;
   }
 
@@ -91,6 +91,19 @@
   /* ---------- more information ---------- */
 
   var detail = (window.PRODUCT_DETAILS || {})[p.id];
+
+  if (!detail) {
+    var noBox = document.getElementById("detail-body");
+    var noWrap = document.getElementById("detail-extra");
+    var noSrc = document.getElementById("detail-source");
+    if (noBox) {
+      noBox.innerHTML = "<p>The fact sheet for this product is not in the archive yet, so we have " +
+        "written nothing about it. Ask us and we will send the current official sheet.</p>";
+    }
+    if (noSrc) noSrc.textContent = "Listed from the Singapore retail price list: " + p.sku + ".";
+    if (noWrap) noWrap.hidden = false;
+  }
+
   if (detail) {
     var esc = Cart.escapeHtml;
     var box = document.getElementById("detail-body");
@@ -160,7 +173,7 @@
         return (
           '<article class="card">' +
             '<a class="card-media" href="product.html?id=' + encodeURIComponent(x.id) + '" aria-label="' + esc(x.name) + '">' +
-              '<img src="assets/img/' + encodeURIComponent(x.id) + '.svg" alt="" loading="lazy" width="600" height="600">' +
+              '<img src="' + x.img + '" alt="" loading="lazy" width="600" height="600">' +
             "</a>" +
             '<div class="card-body">' +
               '<p class="card-cat">' + esc(x.category) + "</p>" +

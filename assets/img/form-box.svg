@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="product box">
+  <title>product box</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f4ea"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1b6d52"/><stop offset="0.55" stop-color="#17624a"/><stop offset="1" stop-color="#0f4636"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a768"/><stop offset="1" stop-color="#a8842f"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="520" rx="140" ry="16" fill="#14251d" opacity="0.10"/>
+  <path d="M186 214 l114 -40 l114 40 v268 l-114 40 l-114 -40 z" fill="url(#body)"/>
+  <path d="M186 214 l114 40 v268 l-114 -40 z" fill="#0f4636" opacity="0.55"/>
+  <path d="M300 254 l114 -40 v268 l-114 40 z" fill="#0f4636" opacity="0.2"/>
+  <rect x="330" y="300" width="66" height="120" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="344" y="330" width="38" height="6" rx="3" fill="#17624a" opacity="0.5"/>
+</svg>

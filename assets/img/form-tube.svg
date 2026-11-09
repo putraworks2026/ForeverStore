@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="product tube">
+  <title>product tube</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f4ea"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1b6d52"/><stop offset="0.55" stop-color="#17624a"/><stop offset="1" stop-color="#0f4636"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a768"/><stop offset="1" stop-color="#a8842f"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="520" rx="140" ry="16" fill="#14251d" opacity="0.10"/>
+  <path d="M250 138 h100 l-14 44 h-72 z" fill="url(#gold)"/>
+  <rect x="258" y="182" width="84" height="26" fill="#0f4636" opacity="0.35"/>
+  <path d="M232 208 q68 -18 136 0 l-16 296 q-52 14 -104 0 z" fill="url(#body)"/>
+  <rect x="244" y="272" width="112" height="140" rx="8" fill="#ffffff" opacity="0.92"/>
+  <rect x="262" y="302" width="76" height="7" rx="3.5" fill="#17624a" opacity="0.55"/>
+  <rect x="262" y="322" width="54" height="6" rx="3" fill="#b08d4f" opacity="0.8"/>
+  <rect x="262" y="340" width="66" height="6" rx="3" fill="#17624a" opacity="0.25"/>
+</svg>

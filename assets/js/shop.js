@@ -27,7 +27,7 @@
       '<article class="card">' +
         '<a class="card-media" href="product.html?id=' + encodeURIComponent(p.id) + '" aria-label="' + esc(p.name) + '">' +
           badge +
-          '<img src="assets/img/' + encodeURIComponent(p.id) + '.svg" alt="" loading="lazy" width="600" height="600">' +
+          '<img src="' + p.img + '" alt="" loading="lazy" width="600" height="600">' +
         "</a>" +
         '<div class="card-body">' +
           '<p class="card-cat">' + esc(p.category) + "</p>" +
