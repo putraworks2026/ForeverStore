@@ -90,6 +90,19 @@ phone. Whenever styles or scripts change, re-run the version stamp:
 python3 tools/stamp-assets.py
 ```
 
+## Ingredients
+
+`assets/data/ingredients.js` holds the ingredient block for each product: a per-serving line
+where the source prints a quantity, then each named ingredient with a short note in the
+source's own terms, plus the document it came from. It covers 48 of the 60 products that have
+a fact sheet; pack bundles and the three Logic products have no ingredient list in their
+documents, so the page falls back to the plain key-ingredient line.
+
+`node tools/check-details.cjs` rejects an ingredient block with no source, an empty list, a
+one-word note, or a medical claim word. Asset links are stamped with a content hash by
+`node tools/stamp-assets.cjs`; run it before committing so a changed file cannot be served
+from a stale cache.
+
 ## Run locally
 
 ```bash
