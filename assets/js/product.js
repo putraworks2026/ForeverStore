@@ -97,8 +97,9 @@
     var wrap = document.getElementById("detail-extra");
     var html = "";
 
+    // The summary is already the lead paragraph above the buy row; only mirror it into
+    // the meta description so the two do not repeat on the page.
     if (detail.summary) {
-      html += '<p class="detail-lead">' + esc(detail.summary) + "</p>";
       var meta = document.querySelector('meta[name="description"]');
       if (meta) meta.setAttribute("content", detail.summary);
     }
