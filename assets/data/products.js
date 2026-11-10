@@ -64,9 +64,10 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "634",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/start-your-journey-1.webp",
     available: true,
-    price: 651.28
+    price: 651.28,
+    placeholder: true
   },
   {
     id: "start-your-journey-2",
@@ -74,9 +75,10 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "634A",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/start-your-journey-2.webp",
     available: true,
-    price: 661.56
+    price: 661.56,
+    placeholder: true
   },
   {
     id: "start-your-journey-3",
@@ -84,9 +86,10 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "634B",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/start-your-journey-3.webp",
     available: true,
-    price: 655.41
+    price: 655.41,
+    placeholder: true
   },
   {
     id: "daily-nutrition-pack",
@@ -94,9 +97,10 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "927",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/daily-nutrition-pack.webp",
     available: true,
-    price: 264.95
+    price: 264.95,
+    placeholder: true
   },
   // ---------- Drinks ----------
   {
@@ -176,7 +180,7 @@ window.PRODUCTS = [
     category: "Shakes",
     form: "tub",
     sku: "471",
-    img: "assets/img/forever-lite-ultra-chocolate.svg",
+    img: "assets/img/products/forever-lite-ultra-chocolate.webp",
     available: true,
     price: 63.39
   },
@@ -186,7 +190,7 @@ window.PRODUCTS = [
     category: "Shakes",
     form: "tub",
     sku: "470",
-    img: "assets/img/forever-lite-ultra-vanilla.svg",
+    img: "assets/img/products/forever-lite-ultra-vanilla.webp",
     available: true,
     price: 63.39
   },
@@ -418,7 +422,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "559",
-    img: "assets/img/form-tube.svg",
+    img: "assets/img/products/smoothing-exfoliator.webp",
     available: true,
     price: 36.65
   },
@@ -428,7 +432,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "645",
-    img: "assets/img/form-tube.svg",
+    img: "assets/img/products/protecting-day-lotion.webp",
     available: true,
     price: 62.96
   },
@@ -458,7 +462,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "650",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/renewing-skin-creme.webp",
     available: true,
     price: 81.5
   },
@@ -478,7 +482,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "667",
-    img: "assets/img/form-tube.svg",
+    img: "assets/img/products/logic-aloe-gel-cleanser.webp",
     available: true,
     price: 48.94
   },
@@ -488,7 +492,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bottle",
     sku: "668",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/logic-balancing-essence.webp",
     available: true,
     price: 48.94
   },
@@ -498,7 +502,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "669",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/logic-soothing-moisturizer.webp",
     available: true,
     price: 48.94
   },
@@ -508,7 +512,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "677",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/refining-gel-mask.webp",
     available: true,
     price: 47
   },
@@ -518,7 +522,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "dropper",
     sku: "686",
-    img: "assets/img/form-dropper.svg",
+    img: "assets/img/products/forever-vitamin-c.webp",
     available: true,
     price: 107.91
   },
@@ -528,7 +532,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "dropper",
     sku: "687",
-    img: "assets/img/form-dropper.svg",
+    img: "assets/img/products/forever-bakuchiol.webp",
     available: true,
     price: 107.91
   },

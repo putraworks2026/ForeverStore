@@ -13,6 +13,10 @@ const root = process.cwd();
 const priceList = JSON.parse(fs.readFileSync(path.join(root, "assets/data/price-list.json"), "utf8"));
 const map = JSON.parse(fs.readFileSync(path.join(root, "tools/catalogue-map.json"), "utf8"));
 
+// Products whose image is a rendered tile rather than photography (tools/no-photo.json,
+// itself generated from tools/product-photo-sources.json).
+const tiles = new Set(JSON.parse(fs.readFileSync(path.join(root, "tools/no-photo.json"), "utf8")).ids);
+
 const prices = new Map(priceList.items.map((x) => [x.code, x.priceInclGst]));
 const CATS = ["Packs", "Drinks", "Shakes", "Bee products", "Skincare", "Personal care", "Supplements"];
 
@@ -33,7 +37,8 @@ const products = map.items.map((m) => {
         ? "assets/img/" + m.id + ".svg"
         : "assets/img/form-" + m.form + ".svg",
     available: price != null,
-    price: price
+    price: price,
+    placeholder: tiles.has(m.id)
   };
 });
 
@@ -63,7 +68,8 @@ for (let c = 0; c < CATS.length; c++) {
     out.push('    sku: "' + p.sku + '",');
     out.push('    img: "' + p.img + '",');
     out.push("    available: " + p.available + ",");
-    out.push("    price: " + (p.price == null ? "null" : p.price));
+    out.push("    price: " + (p.price == null ? "null" : p.price) + (p.placeholder ? "," : ""));
+    if (p.placeholder) out.push("    placeholder: true");
     const lastInGroup = i === group.length - 1;
     const lastCat = c === CATS.length - 1 || products.every((x) => x.category !== CATS[c + 1]);
     out.push("  }" + (lastInGroup && lastCat ? "" : ","));
