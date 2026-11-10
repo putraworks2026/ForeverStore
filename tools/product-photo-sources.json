@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-10 (batches 1-3)",
  "generator": "ForeverStore product-image job, batches 1-2",
  "note": "Every image is a real product photograph taken from an official Forever Living fact sheet or the brand's own product picture. No packaging text, claim, volume or label copy was generated or invented. Backgrounds removed, exported 800x800 WebP with transparency, named by product slug.",
- "produced": 27,
- "skipped": 24,
+ "produced": 36,
+ "skipped": 15,
  "images": [
   {
    "sku": "022RC",
@@ -240,6 +240,19 @@
    "src_px": "889x1029"
   },
   {
+   "sku": "464",
+   "slug": "forever-fiber",
+   "name": "Forever Fiber",
+   "category": "Supplements",
+   "file": "assets/img/products/forever-fiber.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "527e23bc35986a48",
+   "sheet": "https://www.foreveriran.co/فوراور-فیبر-forever-fiber",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Forever Fiber')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "600x600"
+  },
+  {
    "sku": "504",
    "slug": "forever-argi-plus",
    "name": "Forever ARGI+",
@@ -251,6 +264,58 @@
    "sheet_kind": "Forever Living product sheet (ENG)",
    "used_sheet_image": "Im0.jpg",
    "src_px": "989x996"
+  },
+  {
+   "sku": "528",
+   "slug": "f15-vanilla",
+   "name": "Forever F15 — Vanilla",
+   "category": "Packs",
+   "file": "assets/img/products/f15-vanilla.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "6ac15fa85c428db5",
+   "sheet": "https://www.foreveriran.co/اف-15-پیشرفته-١-و-٢-وانیلی-f15-advanced-1-2-vanilla",
+   "sheet_kind": "official product picture on the distributor product page (page title 'F15 advanced 1&2 vanilla')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "900x900"
+  },
+  {
+   "sku": "529",
+   "slug": "f15-chocolate",
+   "name": "Forever F15 — Chocolate",
+   "category": "Packs",
+   "file": "assets/img/products/f15-chocolate.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "604c95278dfa2420",
+   "sheet": "https://www.foreveriran.co/اف-15-پیشرفته-١-و-٢-شکلاتی-f15",
+   "sheet_kind": "official product picture on the distributor product page (page title 'F15 advanced 1&2 chocolate')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "900x900"
+  },
+  {
+   "sku": "547",
+   "slug": "clean-9-vanilla",
+   "name": "Forever Clean 9 — Vanilla",
+   "category": "Packs",
+   "file": "assets/img/products/clean-9-vanilla.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "595ded1033e4c58e",
+   "sheet": "https://www.foreveriran.co/سی-ناین-وانیلی-کلین-ناین-9-روزه-clean-9-vanilla-with-innerpack",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Clean 9 vanilla with innerpack')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "900x900"
+  },
+  {
+   "sku": "548",
+   "slug": "clean-9-chocolate",
+   "name": "Forever Clean 9 — Chocolate",
+   "category": "Packs",
+   "file": "assets/img/products/clean-9-chocolate.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "bc5e2db396bea3e2",
+   "sheet": "https://www.foreveriran.co/سی-ناین-شکلاتی-9-روزه-clean-9-chocolate-with-innerpack",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Clean 9 chocolate with innerpack')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "900x900"
   },
   {
    "sku": "554",
@@ -290,6 +355,19 @@
    "sheet_kind": "Forever Living product sheet (ENG, Product #556 verified)",
    "used_sheet_image": "Im0.jp2 (native transparent)",
    "src_px": "1200x1428"
+  },
+  {
+   "sku": "558",
+   "slug": "infinite-restoring-cream",
+   "name": "Infinite Restoring Cream",
+   "category": "Skincare",
+   "file": "assets/img/products/infinite-restoring-cream.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "57fa5773ed305e62",
+   "sheet": "https://www.foreveriran.co/infinite-restoring-creme",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Infinite restoring creme')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "600x600"
   },
   {
    "sku": "561",
@@ -344,6 +422,19 @@
    "src_px": "512x512"
   },
   {
+   "sku": "652",
+   "slug": "tightening-mask-powder",
+   "name": "Forever Tightening Mask Powder",
+   "category": "Skincare",
+   "file": "assets/img/products/tightening-mask-powder.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "83d7d0cbfc8d3c4a",
+   "sheet": "https://www.foreveriran.co/forever-mask-powder",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Forever Mask Powder'; #652 confirmed as Tightening Mask Powder)",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "900x900"
+  },
+  {
    "sku": "653",
    "slug": "replenishing-skin-oil",
    "name": "Forever Replenishing Skin Oil",
@@ -355,176 +446,139 @@
    "sheet_kind": "official product image on the distributor product page",
    "used_sheet_image": "product picture",
    "src_px": "1000x1000"
-  }
- ],
- "skipped_products": [
-  {
-   "sku": "464",
-   "slug": "forever-fiber",
-   "name": "Forever Fiber",
-   "category": "Supplements",
-   "reason": "Sheet found but its pack image is a page graphic, not a cut-out product photo"
-  },
-  {
-   "sku": "470",
-   "slug": "forever-lite-ultra-vanilla",
-   "name": "Forever Lite Aminotein — Vanilla",
-   "category": "Shakes",
-   "reason": "Sheet covers both Aminotein flavours together; no per-flavour pack shot, so vanilla would be a guess"
-  },
-  {
-   "sku": "471",
-   "slug": "forever-lite-ultra-chocolate",
-   "name": "Forever Lite Aminotein — Chocolate",
-   "category": "Shakes",
-   "reason": "Sheet covers both Aminotein flavours together; no per-flavour pack shot, so chocolate would be a guess"
-  },
-  {
-   "sku": "528",
-   "slug": "f15-vanilla",
-   "name": "Forever F15 — Vanilla",
-   "category": "Packs",
-   "reason": "Archive sheets cover F15 'advanced'/'intermediate' variants that do not map cleanly to this SG SKU"
-  },
-  {
-   "sku": "529",
-   "slug": "f15-chocolate",
-   "name": "Forever F15 — Chocolate",
-   "category": "Packs",
-   "reason": "Archive sheets cover F15 'advanced'/'intermediate' variants that do not map cleanly to this SG SKU"
-  },
-  {
-   "sku": "547",
-   "slug": "clean-9-vanilla",
-   "name": "Forever Clean 9 — Vanilla",
-   "category": "Packs",
-   "reason": "Archive sheets cover Clean 9 'pouch'/'innerpack' configurations that do not map cleanly to this SG SKU"
-  },
-  {
-   "sku": "548",
-   "slug": "clean-9-chocolate",
-   "name": "Forever Clean 9 — Chocolate",
-   "category": "Packs",
-   "reason": "Archive sheets cover Clean 9 'pouch'/'innerpack' configurations that do not map cleanly to this SG SKU"
-  },
-  {
-   "sku": "558",
-   "slug": "infinite-restoring-cream",
-   "name": "Infinite Restoring Cream",
-   "category": "Skincare",
-   "reason": "Sheet found (558_infinite_restoring_creme.pdf) but it prints Product #555, so the image cannot be tied to this SKU"
-  },
-  {
-   "sku": "559",
-   "slug": "smoothing-exfoliator",
-   "name": "Infinite Smoothing Exfoliator",
-   "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "634",
-   "slug": "start-your-journey-1",
-   "name": "Start Your Journey Pack #1",
-   "category": "Packs",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "634A",
-   "slug": "start-your-journey-2",
-   "name": "Start Your Journey Pack #2",
-   "category": "Packs",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "634B",
-   "slug": "start-your-journey-3",
-   "name": "Start Your Journey Pack #3",
-   "category": "Packs",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "645",
-   "slug": "protecting-day-lotion",
-   "name": "Infinite Protecting Day Lotion SPF 20",
-   "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "650",
-   "slug": "renewing-skin-creme",
-   "name": "Forever Renewing Skin Creme",
-   "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
-  },
-  {
-   "sku": "652",
-   "slug": "tightening-mask-powder",
-   "name": "Forever Tightening Mask Powder",
-   "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
   },
   {
    "sku": "659",
    "slug": "dx4",
    "name": "Forever Dx4",
    "category": "Packs",
-   "reason": "DX4 sheet found but it contains no isolatable pack shot (page graphics only)"
+   "file": "assets/img/products/dx4.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "624ef2b455aeffac",
+   "sheet": "https://www.foreveriran.co/forever-dx4",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Forever Dx4')",
+   "used_sheet_image": "product picture",
+   "src_px": "550x550"
   },
   {
    "sku": "664",
    "slug": "aloe-bio-cellulose-mask",
    "name": "Forever Aloe Bio-Cellulose Mask",
    "category": "Skincare",
-   "reason": "Sheet found (PM_Bio_Cellulose_Mask.pdf) but it prints Product #616, so the image cannot be tied to this SKU"
+   "file": "assets/img/products/aloe-bio-cellulose-mask.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "7571b029e0d77e5e",
+   "sheet": "https://www.foreveriran.co/aloe-bio-cellulose-mask",
+   "sheet_kind": "official product picture on the distributor product page (page title 'Forever Aloe bio-cellulose mask')",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "600x600"
+  }
+ ],
+ "skipped_products": [
+  {
+   "sku": "470",
+   "slug": "forever-lite-ultra-vanilla",
+   "name": "Forever Lite Aminotein — Vanilla",
+   "category": "Shakes",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "471",
+   "slug": "forever-lite-ultra-chocolate",
+   "name": "Forever Lite Aminotein — Chocolate",
+   "category": "Shakes",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "559",
+   "slug": "smoothing-exfoliator",
+   "name": "Infinite Smoothing Exfoliator",
+   "category": "Skincare",
+   "reason": "no verifiable official photo found (shop API only; regional archives show no exfoliator art)"
+  },
+  {
+   "sku": "634",
+   "slug": "start-your-journey-1",
+   "name": "Start Your Journey Pack #1",
+   "category": "Packs",
+   "reason": "SG-specific bundle, no official pack shot exists"
+  },
+  {
+   "sku": "634A",
+   "slug": "start-your-journey-2",
+   "name": "Start Your Journey Pack #2",
+   "category": "Packs",
+   "reason": "SG-specific bundle, no official pack shot exists"
+  },
+  {
+   "sku": "634B",
+   "slug": "start-your-journey-3",
+   "name": "Start Your Journey Pack #3",
+   "category": "Packs",
+   "reason": "SG-specific bundle, no official pack shot exists"
+  },
+  {
+   "sku": "645",
+   "slug": "protecting-day-lotion",
+   "name": "Infinite Protecting Day Lotion SPF 20",
+   "category": "Skincare",
+   "reason": "no verifiable official photo found"
+  },
+  {
+   "sku": "650",
+   "slug": "renewing-skin-creme",
+   "name": "Forever Renewing Skin Creme",
+   "category": "Skincare",
+   "reason": "no verifiable official photo found"
   },
   {
    "sku": "667",
    "slug": "logic-aloe-gel-cleanser",
    "name": "Logic Aloe Gel Cleanser",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found (official shop serves art via a JS API, not a fetchable URL)"
   },
   {
    "sku": "668",
    "slug": "logic-balancing-essence",
    "name": "Logic Balancing Aloe Essence",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found (same)"
   },
   {
    "sku": "669",
    "slug": "logic-soothing-moisturizer",
    "name": "Logic Soothing Gel Moisturizer",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found (same)"
   },
   {
    "sku": "677",
    "slug": "refining-gel-mask",
    "name": "Forever Refining Gel Mask",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "only a Sonya line gel mask was found, which is a different product"
   },
   {
    "sku": "686",
    "slug": "forever-vitamin-c",
    "name": "Forever Vitamin C",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found"
   },
   {
    "sku": "687",
    "slug": "forever-bakuchiol",
    "name": "Forever Bakuchiol",
    "category": "Skincare",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found"
   },
   {
    "sku": "927",
    "slug": "daily-nutrition-pack",
    "name": "Forever Daily Nutrition Pack",
    "category": "Packs",
-   "reason": "no accessible official fact sheet or product image found"
+   "reason": "no verifiable official photo found (SG-specific bundle)"
   }
  ]
 }

@@ -14,7 +14,7 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "547",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/clean-9-vanilla.webp",
     available: true,
     price: 265.61
   },
@@ -24,7 +24,7 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "548",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/clean-9-chocolate.webp",
     available: true,
     price: 265.61
   },
@@ -34,7 +34,7 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "528",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/f15-vanilla.webp",
     available: true,
     price: 327.28
   },
@@ -44,7 +44,7 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "529",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/f15-chocolate.webp",
     available: true,
     price: 327.28
   },
@@ -54,7 +54,7 @@ window.PRODUCTS = [
     category: "Packs",
     form: "pack",
     sku: "659",
-    img: "assets/img/form-pack.svg",
+    img: "assets/img/products/dx4.webp",
     available: true,
     price: 328.57
   },
@@ -408,7 +408,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "558",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/infinite-restoring-cream.webp",
     available: true,
     price: 101.76
   },
@@ -448,7 +448,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "sachet",
     sku: "664",
-    img: "assets/img/form-sachet.svg",
+    img: "assets/img/products/aloe-bio-cellulose-mask.webp",
     available: true,
     price: 79.35
   },
@@ -468,7 +468,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "652",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/tightening-mask-powder.webp",
     available: true,
     price: 56.68
   },
@@ -670,7 +670,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "sachet",
     sku: "464",
-    img: "assets/img/form-sachet.svg",
+    img: "assets/img/products/forever-fiber.webp",
     available: true,
     price: 52.15
   },
