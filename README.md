@@ -145,6 +145,10 @@ Sixty of the eighty images are photographs lifted from official Forever Living f
 shadow or lighting, which read as clip art beside the rest; those were re-lit with generated
 backgrounds and lighting on 2026-11-11 (`tools/ai-restyled.json`).
 
+Every image is also framed the same way: the product fills about 74% of an 800x800 canvas, sits on
+that sweep with a soft contact shadow, and is never cropped at the frame edge. Before this pass, 60
+of the 80 had the product bleeding off the top and bottom, which is what made them look unfinished.
+
 The rule that keeps this honest: **the product, its packaging artwork and every label word come
 from the official art, never from the model.** The render supplies only the studio sweep, the key
 light and the contact shadow. If a render ever shows label text that differs from the official
