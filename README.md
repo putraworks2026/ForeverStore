@@ -138,6 +138,19 @@ payment directly. Cart contents and the delivery draft are kept in `localStorage
    distributor agreement and local advertising rules before publishing.
 7. **Policies.** Add real delivery, returns and privacy pages, and link them in the footer.
 
+## Product images: photographs and AI-restyled cut-outs
+
+Sixty of the eighty images are photographs lifted from official Forever Living fact sheets
+(provenance in `tools/product-photo-sources.json`). Twenty were flat white cut-outs with no
+shadow or lighting, which read as clip art beside the rest; those were re-lit with generated
+backgrounds and lighting on 2026-11-11 (`tools/ai-restyled.json`).
+
+The rule that keeps this honest: **the product, its packaging artwork and every label word come
+from the official art, never from the model.** The render supplies only the studio sweep, the key
+light and the contact shadow. If a render ever shows label text that differs from the official
+cut-out, discard it: the label is the source of truth. Four pack tiles (Daily Nutrition Pack and
+Start Your Journey 1-3) remain renders, because no photograph of that packaging exists.
+
 ## Deploy
 
 Any static host works. For GitHub Pages: **Settings → Pages → Deploy from a branch →

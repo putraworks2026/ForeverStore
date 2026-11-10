@@ -1,0 +1,30 @@
+{
+ "generated": "2026-11-11",
+ "job": "AI restyle of flat product cut-outs",
+ "what": "The product itself, its packaging artwork and every label word come from the official Forever Living cut-out already in this repo (the same art as the fact sheets). Only the background, lighting and contact shadow were generated: a seamless warm-grey studio sweep, soft key light from upper left, subtle reflection.",
+ "why": "The 20 images listed here were flat white cut-outs with no shadow or lighting, and read as clip art beside the 60 photographed products.",
+ "model": "Agent image generation (no external service, no product text generated)",
+ "products": [
+  "active-ha",
+  "active-probiotic",
+  "aloe-avocado-soap",
+  "aloe-bits-n-peaches",
+  "aloe-ever-shield",
+  "forever-bakuchiol",
+  "forever-bee-honey",
+  "forever-calcium",
+  "forever-move",
+  "forever-therm",
+  "forever-vitamin-c",
+  "garcinia-plus",
+  "logic-aloe-gel-cleanser",
+  "logic-balancing-essence",
+  "logic-soothing-moisturizer",
+  "protecting-day-lotion",
+  "refining-gel-mask",
+  "renewing-skin-creme",
+  "replenishing-skin-oil",
+  "smoothing-exfoliator"
+ ],
+ "rule": "If any render ever shows label text that differs from the official art, discard the render: the label is the source of truth, not the render."
+}
