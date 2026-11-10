@@ -1,0 +1,530 @@
+{
+ "generated": "2026-11-10",
+ "generator": "ForeverStore product-image job, batches 1-2",
+ "note": "Every image is a real product photograph taken from an official Forever Living fact sheet or the brand's own product picture. No packaging text, claim, volume or label copy was generated or invented. Backgrounds removed, exported 800x800 WebP with transparency, named by product slug.",
+ "produced": 27,
+ "skipped": 24,
+ "images": [
+  {
+   "sku": "022RC",
+   "slug": "aloe-lips-12",
+   "name": "Forever Aloe Lips (12 pieces)",
+   "category": "Skincare",
+   "file": "assets/img/products/aloe-lips-12.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "4aa0719abdd4e679",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/022RC.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "559x347"
+  },
+  {
+   "sku": "028",
+   "slug": "bright-toothgel",
+   "name": "Forever Bright Toothgel",
+   "category": "Personal care",
+   "file": "assets/img/products/bright-toothgel.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "23642d2d29e69eb6",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/028.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im4.jpg",
+   "src_px": "588x1688"
+  },
+  {
+   "sku": "037",
+   "slug": "nature-min",
+   "name": "Forever Nature-Min",
+   "category": "Supplements",
+   "file": "assets/img/products/nature-min.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "bb47a8505f703cfe",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/037.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "219x449"
+  },
+  {
+   "sku": "048",
+   "slug": "absorbent-c",
+   "name": "Forever Absorbent-C",
+   "category": "Supplements",
+   "file": "assets/img/products/absorbent-c.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "1d0d236f1f64b765",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/048.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im4.jpg",
+   "src_px": "255x527"
+  },
+  {
+   "sku": "063",
+   "slug": "aloe-moisturizing-lotion",
+   "name": "Forever Aloe Moisturizing Lotion",
+   "category": "Skincare",
+   "file": "assets/img/products/aloe-moisturizing-lotion.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "ce2d6d6bca9f3e2f",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/063.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im2.jpg",
+   "src_px": "252x690"
+  },
+  {
+   "sku": "067",
+   "slug": "aloe-ever-shield",
+   "name": "Forever Aloe Ever-Shield",
+   "category": "Personal care",
+   "file": "assets/img/products/aloe-ever-shield.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "d3a2dccf8c48474c",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/067.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im2.jpg",
+   "src_px": "1063x1650"
+  },
+  {
+   "sku": "068",
+   "slug": "fields-of-greens",
+   "name": "Forever Fields of Greens",
+   "category": "Supplements",
+   "file": "assets/img/products/fields-of-greens.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "bc5b8b6387fa2882",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/068.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im5.jpg",
+   "src_px": "268x512"
+  },
+  {
+   "sku": "071",
+   "slug": "garcinia-plus",
+   "name": "Forever Garcinia Plus",
+   "category": "Supplements",
+   "file": "assets/img/products/garcinia-plus.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "32d89a9b0c58c6b6",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/071.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im2.jpg",
+   "src_px": "270x545"
+  },
+  {
+   "sku": "188",
+   "slug": "b12-plus",
+   "name": "Forever B12 Plus",
+   "category": "Supplements",
+   "file": "assets/img/products/b12-plus.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "ef01f45ca06df072",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/188.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im5.jpg",
+   "src_px": "513x1026"
+  },
+  {
+   "sku": "200",
+   "slug": "aloe-blossom-tea",
+   "name": "Forever Aloe Blossom Tea",
+   "category": "Drinks",
+   "file": "assets/img/products/aloe-blossom-tea.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "e2c527d7d853fac1",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/200.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im5.jpg",
+   "src_px": "897x651"
+  },
+  {
+   "sku": "206",
+   "slug": "forever-calcium",
+   "name": "Forever Calcium",
+   "category": "Supplements",
+   "file": "assets/img/products/forever-calcium.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "7d1ba30ce5a85fb1",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/206.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im4.jpg",
+   "src_px": "279x555"
+  },
+  {
+   "sku": "207",
+   "slug": "forever-bee-honey",
+   "name": "Forever Bee Honey",
+   "category": "Bee products",
+   "file": "assets/img/products/forever-bee-honey.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "fc8ecbf13b3c7fd9",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/207.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im1.jpg",
+   "src_px": "421x787"
+  },
+  {
+   "sku": "264",
+   "slug": "active-ha",
+   "name": "Forever Active HA",
+   "category": "Supplements",
+   "file": "assets/img/products/active-ha.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "d5bfdfe89aa976e0",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/264.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "335x578"
+  },
+  {
+   "sku": "284",
+   "slug": "aloe-avocado-soap",
+   "name": "Forever Aloe Avocado Face and Body Soap",
+   "category": "Skincare",
+   "file": "assets/img/products/aloe-avocado-soap.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "c4d5f5a78d9675ff",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/284.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "498x374"
+  },
+  {
+   "sku": "312",
+   "slug": "cardiohealth-coq10",
+   "name": "Forever CardioHealth with CoQ10",
+   "category": "Drinks",
+   "file": "assets/img/products/cardiohealth-coq10.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "8e0af6c1802797c6",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/312.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im1.jpg",
+   "src_px": "315x270"
+  },
+  {
+   "sku": "374",
+   "slug": "vitolize-men",
+   "name": "Forever Vitolize Men's",
+   "category": "Supplements",
+   "file": "assets/img/products/vitolize-men.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "527f1cec55066f0e",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/374.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im1.jpg",
+   "src_px": "521x969"
+  },
+  {
+   "sku": "375",
+   "slug": "vitolize-women",
+   "name": "Forever Vitolize Women's",
+   "category": "Supplements",
+   "file": "assets/img/products/vitolize-women.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "8e5a00fbd1647703",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/375.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im1.jpg",
+   "src_px": "444x825"
+  },
+  {
+   "sku": "376",
+   "slug": "arctic-sea-omega-3",
+   "name": "Forever Arctic Sea Omega 3",
+   "category": "Supplements",
+   "file": "assets/img/products/arctic-sea-omega-3.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "e1bbf7991b99f407",
+   "sheet": "https://gallery.foreverliving.com/gallery/SVK/download/Manualove_listy/376.pdf",
+   "sheet_kind": "Forever Living product sheet (Slovak regional archive)",
+   "used_sheet_image": "Im1.jp2 (native transparent)",
+   "src_px": "889x1029"
+  },
+  {
+   "sku": "504",
+   "slug": "forever-argi-plus",
+   "name": "Forever ARGI+",
+   "category": "Drinks",
+   "file": "assets/img/products/forever-argi-plus.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "8602316f988ae865",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/1443028327224504_Forever_ARGI_STICKS_UPDATED_ENG.pdf",
+   "sheet_kind": "Forever Living product sheet (ENG)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "989x996"
+  },
+  {
+   "sku": "554",
+   "slug": "infinite-hydrating-cleanser",
+   "name": "Infinite Hydrating Cleanser",
+   "category": "Skincare",
+   "file": "assets/img/products/infinite-hydrating-cleanser.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "da3c72f78935517d",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/554_infinite_hydrating_cleanser.pdf",
+   "sheet_kind": "Forever Living product sheet (ENG, Product #554 verified)",
+   "used_sheet_image": "Im0.jp2 (native transparent)",
+   "src_px": "943x1337"
+  },
+  {
+   "sku": "555",
+   "slug": "infinite-firming-serum",
+   "name": "Infinite Firming Serum",
+   "category": "Skincare",
+   "file": "assets/img/products/infinite-firming-serum.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "ecbc9066ffd1d1d7",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/555_infinite_firming_serum.pdf",
+   "sheet_kind": "Forever Living product sheet (ENG, Product #555 verified)",
+   "used_sheet_image": "Im0.jp2 (native transparent)",
+   "src_px": "942x1256"
+  },
+  {
+   "sku": "556",
+   "slug": "infinite-firming-complex",
+   "name": "Infinite Firming Complex",
+   "category": "Skincare",
+   "file": "assets/img/products/infinite-firming-complex.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "b409cd6cbed18c7a",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/556_infinite_firming_complex.pdf",
+   "sheet_kind": "Forever Living product sheet (ENG, Product #556 verified)",
+   "used_sheet_image": "Im0.jp2 (native transparent)",
+   "src_px": "1200x1428"
+  },
+  {
+   "sku": "561",
+   "slug": "aloe-eye-gel",
+   "name": "Forever Aloe Awakening Eye Creme",
+   "category": "Skincare",
+   "file": "assets/img/products/aloe-eye-gel.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "5abdc30b893b4a33",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/561_Skincare_awaking_eye_cream.pdf",
+   "sheet_kind": "Forever Living product sheet (ENG, Product #561 verified)",
+   "used_sheet_image": "Im0.jp2 (native transparent)",
+   "src_px": "1035x1459"
+  },
+  {
+   "sku": "566",
+   "slug": "immune-gummy",
+   "name": "Forever Immune Gummy",
+   "category": "Supplements",
+   "file": "assets/img/products/immune-gummy.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "e85b4005c1bbf302",
+   "sheet": "https://www.foreveriran.co/forever-immune-gummy",
+   "sheet_kind": "official product image on the distributor product page",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "550x550"
+  },
+  {
+   "sku": "610",
+   "slug": "active-probiotic",
+   "name": "Forever Active Pro-B",
+   "category": "Supplements",
+   "file": "assets/img/products/active-probiotic.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "2658c33cb5272259",
+   "sheet": "https://www.foreveriran.co/Content/Images/uploaded/1524112628010Product%20Manual%20Page%20-%20Forever%20Active%20Pro-B.pdf",
+   "sheet_kind": "Forever Living product manual page (Product #610 verified)",
+   "used_sheet_image": "Im0.jpg",
+   "src_px": "818x1458"
+  },
+  {
+   "sku": "618",
+   "slug": "hydrating-serum",
+   "name": "Forever Hydrating Serum",
+   "category": "Skincare",
+   "file": "assets/img/products/hydrating-serum.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "5613ab9180febc05",
+   "sheet": "https://www.foreveriran.co/forever-hydrating-serum",
+   "sheet_kind": "official product image on the distributor product page",
+   "used_sheet_image": "product picture (native transparent)",
+   "src_px": "512x512"
+  },
+  {
+   "sku": "653",
+   "slug": "replenishing-skin-oil",
+   "name": "Forever Replenishing Skin Oil",
+   "category": "Skincare",
+   "file": "assets/img/products/replenishing-skin-oil.webp",
+   "output": "800x800 WebP, transparent background",
+   "sha256": "d75621d108608713",
+   "sheet": "https://www.foreveriran.co/forever-replenishing-skin-oil",
+   "sheet_kind": "official product image on the distributor product page",
+   "used_sheet_image": "product picture",
+   "src_px": "1000x1000"
+  }
+ ],
+ "skipped_products": [
+  {
+   "sku": "464",
+   "slug": "forever-fiber",
+   "name": "Forever Fiber",
+   "category": "Supplements",
+   "reason": "Sheet found but its pack image is a page graphic, not a cut-out product photo"
+  },
+  {
+   "sku": "470",
+   "slug": "forever-lite-ultra-vanilla",
+   "name": "Forever Lite Aminotein — Vanilla",
+   "category": "Shakes",
+   "reason": "Sheet covers both Aminotein flavours together; no per-flavour pack shot, so vanilla would be a guess"
+  },
+  {
+   "sku": "471",
+   "slug": "forever-lite-ultra-chocolate",
+   "name": "Forever Lite Aminotein — Chocolate",
+   "category": "Shakes",
+   "reason": "Sheet covers both Aminotein flavours together; no per-flavour pack shot, so chocolate would be a guess"
+  },
+  {
+   "sku": "528",
+   "slug": "f15-vanilla",
+   "name": "Forever F15 — Vanilla",
+   "category": "Packs",
+   "reason": "Archive sheets cover F15 'advanced'/'intermediate' variants that do not map cleanly to this SG SKU"
+  },
+  {
+   "sku": "529",
+   "slug": "f15-chocolate",
+   "name": "Forever F15 — Chocolate",
+   "category": "Packs",
+   "reason": "Archive sheets cover F15 'advanced'/'intermediate' variants that do not map cleanly to this SG SKU"
+  },
+  {
+   "sku": "547",
+   "slug": "clean-9-vanilla",
+   "name": "Forever Clean 9 — Vanilla",
+   "category": "Packs",
+   "reason": "Archive sheets cover Clean 9 'pouch'/'innerpack' configurations that do not map cleanly to this SG SKU"
+  },
+  {
+   "sku": "548",
+   "slug": "clean-9-chocolate",
+   "name": "Forever Clean 9 — Chocolate",
+   "category": "Packs",
+   "reason": "Archive sheets cover Clean 9 'pouch'/'innerpack' configurations that do not map cleanly to this SG SKU"
+  },
+  {
+   "sku": "558",
+   "slug": "infinite-restoring-cream",
+   "name": "Infinite Restoring Cream",
+   "category": "Skincare",
+   "reason": "Sheet found (558_infinite_restoring_creme.pdf) but it prints Product #555, so the image cannot be tied to this SKU"
+  },
+  {
+   "sku": "559",
+   "slug": "smoothing-exfoliator",
+   "name": "Infinite Smoothing Exfoliator",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "634",
+   "slug": "start-your-journey-1",
+   "name": "Start Your Journey Pack #1",
+   "category": "Packs",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "634A",
+   "slug": "start-your-journey-2",
+   "name": "Start Your Journey Pack #2",
+   "category": "Packs",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "634B",
+   "slug": "start-your-journey-3",
+   "name": "Start Your Journey Pack #3",
+   "category": "Packs",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "645",
+   "slug": "protecting-day-lotion",
+   "name": "Infinite Protecting Day Lotion SPF 20",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "650",
+   "slug": "renewing-skin-creme",
+   "name": "Forever Renewing Skin Creme",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "652",
+   "slug": "tightening-mask-powder",
+   "name": "Forever Tightening Mask Powder",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "659",
+   "slug": "dx4",
+   "name": "Forever Dx4",
+   "category": "Packs",
+   "reason": "DX4 sheet found but it contains no isolatable pack shot (page graphics only)"
+  },
+  {
+   "sku": "664",
+   "slug": "aloe-bio-cellulose-mask",
+   "name": "Forever Aloe Bio-Cellulose Mask",
+   "category": "Skincare",
+   "reason": "Sheet found (PM_Bio_Cellulose_Mask.pdf) but it prints Product #616, so the image cannot be tied to this SKU"
+  },
+  {
+   "sku": "667",
+   "slug": "logic-aloe-gel-cleanser",
+   "name": "Logic Aloe Gel Cleanser",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "668",
+   "slug": "logic-balancing-essence",
+   "name": "Logic Balancing Aloe Essence",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "669",
+   "slug": "logic-soothing-moisturizer",
+   "name": "Logic Soothing Gel Moisturizer",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "677",
+   "slug": "refining-gel-mask",
+   "name": "Forever Refining Gel Mask",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "686",
+   "slug": "forever-vitamin-c",
+   "name": "Forever Vitamin C",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "687",
+   "slug": "forever-bakuchiol",
+   "name": "Forever Bakuchiol",
+   "category": "Skincare",
+   "reason": "no accessible official fact sheet or product image found"
+  },
+  {
+   "sku": "927",
+   "slug": "daily-nutrition-pack",
+   "name": "Forever Daily Nutrition Pack",
+   "category": "Packs",
+   "reason": "no accessible official fact sheet or product image found"
+  }
+ ]
+}

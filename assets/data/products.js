@@ -145,7 +145,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "box",
     sku: "200",
-    img: "assets/img/form-box.svg",
+    img: "assets/img/products/aloe-blossom-tea.webp",
     available: true,
     price: 36.99
   },
@@ -155,7 +155,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "sachet",
     sku: "504",
-    img: "assets/img/forever-argi-plus.svg",
+    img: "assets/img/products/forever-argi-plus.webp",
     available: true,
     price: 131.09
   },
@@ -165,7 +165,7 @@ window.PRODUCTS = [
     category: "Drinks",
     form: "sachet",
     sku: "312",
-    img: "assets/img/form-sachet.svg",
+    img: "assets/img/products/cardiohealth-coq10.webp",
     available: true,
     price: 56.16
   },
@@ -197,7 +197,7 @@ window.PRODUCTS = [
     category: "Bee products",
     form: "jar",
     sku: "207",
-    img: "assets/img/forever-bee-honey.svg",
+    img: "assets/img/products/forever-bee-honey.webp",
     available: true,
     price: 43.56
   },
@@ -238,7 +238,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bar",
     sku: "284",
-    img: "assets/img/form-bar.svg",
+    img: "assets/img/products/aloe-avocado-soap.webp",
     available: true,
     price: 14.66
   },
@@ -288,7 +288,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "stick",
     sku: "022RC",
-    img: "assets/img/form-stick.svg",
+    img: "assets/img/products/aloe-lips-12.webp",
     available: true,
     price: 93
   },
@@ -298,7 +298,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bottle",
     sku: "063",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/aloe-moisturizing-lotion.webp",
     available: true,
     price: 32.34
   },
@@ -358,7 +358,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "561",
-    img: "assets/img/aloe-eye-gel.svg",
+    img: "assets/img/products/aloe-eye-gel.webp",
     available: true,
     price: 36.65
   },
@@ -368,7 +368,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "dropper",
     sku: "618",
-    img: "assets/img/form-dropper.svg",
+    img: "assets/img/products/hydrating-serum.webp",
     available: true,
     price: 60.36
   },
@@ -378,7 +378,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "jar",
     sku: "556",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/infinite-firming-complex.webp",
     available: true,
     price: 89.26
   },
@@ -388,7 +388,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "dropper",
     sku: "555",
-    img: "assets/img/form-dropper.svg",
+    img: "assets/img/products/infinite-firming-serum.webp",
     available: true,
     price: 89.69
   },
@@ -398,7 +398,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "554",
-    img: "assets/img/form-tube.svg",
+    img: "assets/img/products/infinite-hydrating-cleanser.webp",
     available: true,
     price: 57.34
   },
@@ -438,7 +438,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "dropper",
     sku: "653",
-    img: "assets/img/form-dropper.svg",
+    img: "assets/img/products/replenishing-skin-oil.webp",
     available: true,
     price: 81.5
   },
@@ -549,7 +549,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "stick",
     sku: "067",
-    img: "assets/img/aloe-ever-shield.svg",
+    img: "assets/img/products/aloe-ever-shield.webp",
     available: true,
     price: 22.86
   },
@@ -599,7 +599,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "tube",
     sku: "028",
-    img: "assets/img/bright-toothgel.svg",
+    img: "assets/img/products/bright-toothgel.webp",
     available: true,
     price: 18.98
   },
@@ -610,7 +610,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "048",
-    img: "assets/img/absorbent-c.svg",
+    img: "assets/img/products/absorbent-c.webp",
     available: true,
     price: 35.78
   },
@@ -620,7 +620,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "264",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/active-ha.webp",
     available: true,
     price: 76.76
   },
@@ -630,7 +630,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "610",
-    img: "assets/img/active-probiotic.svg",
+    img: "assets/img/products/active-probiotic.webp",
     available: true,
     price: 63.39
   },
@@ -640,7 +640,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "376",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/arctic-sea-omega-3.webp",
     available: true,
     price: 69.08
   },
@@ -650,7 +650,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "188",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/b12-plus.webp",
     available: true,
     price: 35.78
   },
@@ -660,7 +660,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "206",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/forever-calcium.webp",
     available: true,
     price: 50.45
   },
@@ -680,7 +680,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "068",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/fields-of-greens.webp",
     available: true,
     price: 50.45
   },
@@ -720,7 +720,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "071",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/garcinia-plus.webp",
     available: true,
     price: 78.91
   },
@@ -730,7 +730,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "jar",
     sku: "566",
-    img: "assets/img/form-jar.svg",
+    img: "assets/img/products/immune-gummy.webp",
     available: true,
     price: 63.83
   },
@@ -770,7 +770,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "037",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/nature-min.webp",
     available: true,
     price: 50.45
   },
@@ -790,7 +790,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "374",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/vitolize-men.webp",
     available: true,
     price: 51.7
   },
@@ -800,7 +800,7 @@ window.PRODUCTS = [
     category: "Supplements",
     form: "bottle",
     sku: "375",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/vitolize-women.webp",
     available: true,
     price: 53.04
   },
