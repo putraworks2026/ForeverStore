@@ -248,7 +248,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bottle",
     sku: "647",
-    img: "assets/img/aloe-body-lotion.svg",
+    img: "assets/img/products/aloe-body-lotion.webp",
     available: true,
     price: 37.94
   },
@@ -258,7 +258,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "spray",
     sku: "040",
-    img: "assets/img/form-spray.svg",
+    img: "assets/img/products/aloe-first.webp",
     available: true,
     price: 42.7
   },
@@ -268,7 +268,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "064",
-    img: "assets/img/aloe-heat-lotion.svg",
+    img: "assets/img/products/aloe-heat-lotion.webp",
     available: true,
     price: 32.34
   },
@@ -328,7 +328,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "238",
-    img: "assets/img/aloe-scrub.svg",
+    img: "assets/img/products/aloe-scrub.webp",
     available: true,
     price: 36.65
   },
@@ -338,7 +338,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "tube",
     sku: "061",
-    img: "assets/img/aloe-vera-gelly.svg",
+    img: "assets/img/products/aloe-vera-gelly.webp",
     available: true,
     price: 32.34
   },
@@ -539,7 +539,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "bottle",
     sku: "646",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/aloe-body-wash.webp",
     available: true,
     price: 40.97
   },
@@ -589,7 +589,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "tube",
     sku: "617",
-    img: "assets/img/form-tube.svg",
+    img: "assets/img/products/aloe-sunscreen.webp",
     available: true,
     price: 35.78
   },
