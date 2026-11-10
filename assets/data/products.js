@@ -278,7 +278,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "stick",
     sku: "022RA",
-    img: "assets/img/aloe-lips.svg",
+    img: "assets/img/products/aloe-lips.webp",
     available: true,
     price: 15.5
   },
@@ -348,7 +348,7 @@ window.PRODUCTS = [
     category: "Skincare",
     form: "bottle",
     sku: "612",
-    img: "assets/img/form-bottle.svg",
+    img: "assets/img/products/aloe-activator.webp",
     available: true,
     price: 40.56
   },
@@ -559,7 +559,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "bottle",
     sku: "641",
-    img: "assets/img/aloe-jojoba-conditioner.svg",
+    img: "assets/img/products/aloe-jojoba-conditioner.webp",
     available: true,
     price: 40.11
   },
@@ -569,7 +569,7 @@ window.PRODUCTS = [
     category: "Personal care",
     form: "bottle",
     sku: "640",
-    img: "assets/img/aloe-jojoba-shampoo.svg",
+    img: "assets/img/products/aloe-jojoba-shampoo.webp",
     available: true,
     price: 37.51
   },
